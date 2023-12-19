@@ -39,7 +39,7 @@ export const sendMail = async function (frommail, tomail, subject, message) {
     return true;
   } catch (error) {
     
-
+console.log(error)
     return false;
   }
 };
