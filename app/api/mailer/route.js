@@ -7,7 +7,7 @@ export async function POST(request) {
    // console.log(await request.json())
      const re= await request.json()
      
-     const emailer= process.env.USERMAIL
+     const emailer= process.env.JDS_USERMAIL
      const {name, email, subject, message}=re
      const dtr=`<h1>my name is ${name}<h1/><p>${message}<p/>`
    const isSent=await sendMail(email, emailer,subject,dtr)
