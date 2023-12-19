@@ -2,26 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.gridglobal {
+  grid-template-rows: 0;
+  overflow: hidden;
+}
+.transit {
+  transition-property: height opacity overflow;
+  transition-duration: 900ms;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.overlay {
+  background-color: rgba(6, 0, 3, 0.21);
+}
+
+.imagebox {
+  /* Here's the trick */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/slider1.jpeg") -170px -100px;
+  background-size: 185%;
+  background-repeat: no-repeat;
+
+  /*background-position: right 35% bottom 45%; */
+}
+
+.imageboxtest {
+  /* Here's the trick */
+  
+   background-position:  -170px -100px; 
+  background-size: 185%;
+  background-repeat: no-repeat;
+
+  /*background-position: right 35% bottom 45%; */
+}
+
+.imagebox_md {
+  /* Here's the trick */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/slider1.jpeg") center;
+  background-size: cover;
+ 
+
+  /*background-position: right 35% bottom 45%; */
+}
+
+.consultation_sm {
+  /* Here's the trick */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/infopic.jpeg") center center;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+  /*background-position: right 35% bottom 45%; */
 }
