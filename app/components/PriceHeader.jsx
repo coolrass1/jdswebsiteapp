@@ -8,8 +8,8 @@ const PriceHeader = ({title, price1title, price2title}) => {
       <span className='text-5xl'><AiOutlineSetting /></span>
       <span className='text-3xl font-extrabold uppercase'>{title}</span>
     </div>
-    <div className="col-span-1 text-2xl font-extrabold uppercase">{price1title}</div>
-    <div className="col-span-1 text-2xl font-extrabold uppercase  "> {price2title}</div>
+    <div className="col-span-1 text-2xl font-extrabold uppercase px-3">{price1title}</div>
+    <div className="col-span-1 text-2xl font-extrabold uppercase pl-14 "> {price2title}</div>
   </div>
   )
 }

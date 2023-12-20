@@ -35,7 +35,7 @@ const Topbar = () => {
       <nav>
         <ul className="hidden md:flex flex-row items-center justify-between gap-5 ">
           <li>
-            <Link href="#" className={`${activepage=="/"?'text-primary':'text-secondary'} hover:text-primary`}>
+            <Link href="/" className={`${activepage=="/"?'text-primary':'text-secondary'} hover:text-primary`}>
               HOME
             </Link>
           </li>

@@ -30,5 +30,26 @@ export const page1 = [
     p1: "£1,540.00",
     p2: "",
   },
- 
+];
+
+export const page2 = [
+  {
+    title: "Criminal case:",
+    text: "You will be given our terms of business contract for signature, either for an agreed fixed fee or will set out our hourly rates and an estimate of your total cost.",
+    p1: "",
+    p2: "",
+  },
+
+  {
+    title: "",
+    text: "The contract includes full details of who will work on your case and essential information about our client care and compliance procedures.",
+    p1: "",
+    p2: "",
+  },
+  {
+    title: "",
+    text: "Your case will be prepared by one of our solicitors in the criminal department. They will interview you, contact any witnesses you may have, instruct experts such as doctors or accident specialists if needed and keep you fully informed of the progress of your case.",
+    p1: "",
+    p2: "",
+  },
 ];
