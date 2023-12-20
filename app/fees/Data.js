@@ -53,3 +53,48 @@ export const page2 = [
     p2: "",
   },
 ];
+export const page22=[
+    {
+    title: "Interview Under caution (Non Ploice Station) Fixed Fee: ",
+    text: "Benefit or Housing fraud investigation interview under caution fixed - taking full instructions at our office or by telephone advise on documents and attend with you for one interview. Negotiation and letters after the interview are charged at an hourly rate depending on lawyer's seniority.",
+    p1: "£750.00",
+    p2: "",
+},
+{
+    title: "Hourty Rate Director:",
+    text: "Hourly rate for assistant solicitor thereafter",
+    p1: "£200.00",
+    p2: "",
+},
+{
+    title: "",
+    text: "Short advice: Attend you once and provide a single short written advice as to your prospect in ESA, DLA or Pl P appeals including interview in person, by phone or skpe",
+    p1: "£350.00",
+    p2: "",
+},
+{
+    title: "",
+    text: "Thereafter hourly rate    ",
+    p1: "£175.00",
+    p2: "",
+},
+{
+    title: "",
+    text: "Preparing submissions and evidence for use in an ESA, DLA or PIP appeals and over payment cases excluding. Tribunal hearing (Depending on complexity). Cases will be assessed and fee estimated.",
+    p1: "£175 per hour",
+    p2: "",
+},
+{
+    title: "",
+    text: "Appearing at Tribunal 1/2 day",
+    p1: "£500.00",
+    p2: "",
+},
+{
+    title: "",
+    text: "Full day",
+    p1: "£700.00",
+    p2: "",
+},
+
+]

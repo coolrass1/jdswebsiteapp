@@ -1,7 +1,7 @@
 import React from "react";
 import PriceElement from "../components/PriceElement";
 import PriceHeader from "../components/PriceHeader";
-import {page1, page2} from "./Data"
+import {page1, page2, page22} from "./Data"
 
 const Fees = () => {
    const text1="  Initial consultation taking place during office hours 90minutemeeting with Solicitor followed by a letter summarising the meeting"
@@ -21,6 +21,11 @@ const Fees = () => {
 
        <PriceHeader title="criminal law" price1title="" price2title="" /> 
        {page2.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+      
+       <PriceHeader title="Cases with hourly charges" price1title="cost excluding VAT" price2title="" />
+       {page22.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="legal aid" price1title="solicitors" price2title="partner" /> 
+
       </div>
     </div>
   );
