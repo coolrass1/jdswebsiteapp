@@ -1,7 +1,9 @@
 import React from "react";
 
-const PriceElement = ({text}) => {
+const PriceElement = ({text, title, p1, p2}) => {
   return (
+    <>
+    <h5 className="px-24 mt-7 font-bold">{title}</h5>
     <div className="px-24  grid grid-cols-4 gap-5 ">
      
         {/* <div className="w-[25px] h-[15px] bg-slate-800"></div> */}
@@ -12,7 +14,8 @@ const PriceElement = ({text}) => {
           meeting with Solicitor followed by a letter summarising the
           meeting)
         </p> */}
-          <ul className="col-span-2 w-3/4 list-inside list-disc border-r-2 border-r-black py-7">
+         
+          <ul className="col-span-2 w-3/4 list-inside list-disc border-r-2 border-r-black ">
             <li>
               {" "}
             
@@ -22,11 +25,12 @@ const PriceElement = ({text}) => {
      
      
       <div className="col-span-1 text-black text-xl font-extrabold  py-7">
-        £175.00
+      {p1}
       </div>
-      <div className="col-span-1 text-black  text-xl font-extrabold  border-l-2 border-l-black py-7 px-3">£305.00 </div>
+      <div className="col-span-1 text-black  text-xl font-extrabold  border-l-2 border-l-black p-7 px-3">{p2} </div>
     </div>
-  );
+    </>);
+
 };
 
 export default PriceElement;
