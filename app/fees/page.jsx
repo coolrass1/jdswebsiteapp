@@ -1,7 +1,7 @@
 import React from "react";
 import PriceElement from "../components/PriceElement";
 import PriceHeader from "../components/PriceHeader";
-import {page1, page2, page22} from "./Data"
+import {convey, family_law, family_law_co, legal_aid, page1, page2, page22, purchasing} from "./Data"
 
 const Fees = () => {
    const text1="  Initial consultation taking place during office hours 90minutemeeting with Solicitor followed by a letter summarising the meeting"
@@ -25,6 +25,16 @@ const Fees = () => {
        <PriceHeader title="Cases with hourly charges" price1title="cost excluding VAT" price2title="" />
        {page22.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
        <PriceHeader title="legal aid" price1title="solicitors" price2title="partner" /> 
+       {legal_aid.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="family law" price1title="usual rate" price2title="urgent rate" /> 
+       {family_law.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="family law (cont'd)" price1title="usual rate" price2title="urgent rate" /> 
+       {family_law_co.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="conveyancing" price1title="" price2title="" /> 
+       {convey.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="purchasing" price1title="leasehold" price2title="freehold" /> 
+       {purchasing.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="administration of state" price1title="" price2title="" /> 
 
       </div>
     </div>

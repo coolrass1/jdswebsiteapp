@@ -98,3 +98,182 @@ export const page22=[
 },
 
 ]
+
+export const legal_aid=[
+
+  {
+    title: "Police Station Representation:",
+    text: "Representation at the police station is not means tested, and as such, there is no charge. Within the local area and London. Should you wish to instruct us to attend outside London then we are happy to do so. ",
+    p1: "",
+    p2: "",
+},
+{
+  title: "",
+  text: "ln most cases, we are pleased to act under the Legal Aid scheme, if you are eligible.",
+  p1: "",
+  p2: "",
+},
+
+{
+  title: "case not suitable for fixed fee:",
+  text: "Sorne cases are more complex, such as forfeiture and confiscation cases and serial matters in the crown court where expert evidence is needed, or there are many witnesses.   ",
+  p1: "£175.00",
+  p2: "£200.00",
+},
+{
+  title: "",
+  text: "We will provide a detailed estimate of your likely costs at hourly rates.",
+  p1: "£200.00",
+  p2: "",
+},
+
+
+
+]
+
+export const family_law=[
+  {
+    text: "Our Family Law Service include cases involving divorce, finances, contact matters, prenuptial and postnuptial agreements. ",
+    title: "",
+    p1: "",
+    p2: "",
+  },
+  {
+    text: "We understand that going through the often challenging process of divorce and financial settlement can be overwhelming. We will handle the applications for divorce and financial settlement on your behalf. Our team will take charge of contacting and corresponding with your ex-partner's solicitors regarding Contact Orders, making the entire process smoother for you.",
+    title: "",
+    p1: "",
+    p2: "",
+  },
+  {
+    title: "Divorce:",
+    text: "Simple divorce no children and no financial settlement",
+    p1: "£1200.00",
+    p2: "",
+  },
+  
+]
+
+export const family_law_co=[{
+  title: "Respondent",
+  text: "Respondent in a simple divorce, no children and no financial settlement",
+  p1: "£1,050.00",
+  p2: "",
+},
+{
+  title: "Prenuptial Agreement ",
+  text: "An agreement established prior to the legal marriage of a couple, outlining the ownership of their individual assets in the event of marriage dissolution. ",
+  p1: "£1,815.00",
+  p2: "",
+},
+{
+  title: "",
+  text: "The Drafting of Agreements   ",
+  p1: "",
+  p2: "",
+},
+{
+  title: "",
+  text: "Corresponding with your Husband/Wife/ Partner or their solicitors to discuss the agreement so that Advice on the contents of the Agreement both parties agree to the terms of the Agreement.",
+  p1: "",
+  p2: "",
+},
+{
+  title: "Prenuptial Agreement",
+  text: "An agreement entered into by spouses after marriage, details the distribution of property and responsibilities in the event of divorce or separation. ",
+  p1: "£1,815.00",
+  p2: "",
+},
+{
+  title: "Cohabitation Agreement",
+  text: "An agreement made between a couple who have decided to live together, regardless of their sexual orientation.",
+  p1: "£1,815.00",
+
+  p2: "",
+},
+{
+  title: "Consent Order:",
+  text: "An agreement between two parties that formalizes the financial arrangement.",
+  p1: "£1,815.00",
+  p2: "",
+}]
+
+export const convey=[
+  {
+    title: "",
+    text: "Once we rceive your instructions,JDS Solicitors will promptly supply you with a detailed statement outlining the total costs associated with your purchase, sale, or conveyancing at our firm. ",
+    p1: "",
+    p2: "",
+  }
+
+]
+
+
+export const purchasing=[
+  {
+    title: "Purchasing: ",
+    text:"Property prices below and up to £200.000",
+    p1: "£1600.00",
+    p2: "£1500.00",
+  },
+  {
+    title: "",
+    text:"Property prices between of  £201,000 to £400,000",
+    p1: "£1800.00",
+    p2: "£1600.00",
+  },
+  {
+    title: "",
+    text:"Property prices in the region of£401,000 to £700,000 ",
+    p1: "£2600.00",
+    p2: "£2450.00",
+  },
+  {
+    title: "",
+    text:"Property prices above £700,001.00 up to £l million",
+    p1: "£3200.00",
+    p2: "£3000.00",
+  },
+  {
+    title: "",
+    text:"Property prices over £l million ",
+    p1: "£4200.00",
+    p2: "£4000.00",
+  },
+  {
+    title: "",
+    text:"Share of freehold when purchasing the leasehold interest",
+    p1: "£425.00",
+    p2: "",
+  },
+  {
+    title: "Sale:",
+    text:"Property prices below and up to £200,000",
+    p1: "£1,525.00",
+    p2: "£1,295.00",
+  },
+  {
+    title: "",
+    text:"Property price between £201,000 to £400,000",
+    p1: "£l,695.00",
+    p2: "£l,525.00",
+  },
+  {
+    title: "",
+    text:"Property price between £401,000 to £700,000",
+    p1: "£l,795.00",
+    p2: "£l,625.00",
+  },
+  {
+    title: "",
+    text:"Property price above £700,001.00 to £1 million",
+    p1: "£l,945.00",
+    p2: "£l,825.00",
+  },
+  {
+    title: "",
+    text:"Property price over £l million",
+    p1: "£2,500.00",
+    p2: "£2,000.00",
+  },
+
+]
