@@ -277,3 +277,215 @@ export const purchasing=[
   },
 
 ]
+
+export const administration=[
+  {
+    title: "Administration of the Estate: ",
+    text:"Collecting assets is followed by a subsequent process, which typically spans a duration of 2 to 4 weeks. Once this preliminary step concludes, the distribution of assets ensues, a phase that usually lasts from 4 to 6 weeks. The timeline of this distribution may fluctuate depending on the necessity for a Section 27 Trustees notice.    ",
+    p1: "",
+    p2: "",
+  },
+  {
+    title: "Administration of the Estate: ",
+    text:"Section 27 of the Trustees Act 1925 serves as a safeguard for Trustees and Persona! Representatives. This provision empowers these individuals to shield themselves from potential liability arising from daims by creditors or beneficiaries that were not previously notified when convey or distribute the assets in question from the estate, provided that the notice placed complies with the requirements of the section. ",
+    p1: "",
+    p2: "",
+  },
+]
+
+export const will_probate=[
+  {
+    title: "Orant of Probate/Letters of Administration: ",
+    text:"We can help you through this difficult process by obtaining the Grant of Probate/Letters of Administration on your behalf. We will also undertake the collecting and distributing of assets.",
+    p1: "",
+    p2: "",
+  },
+
+  {
+    title: "",
+    text:"Our fixed fees for our legal costs is up to the :ES,000.00 extraction of the grant of probate or letters of administration",
+    p1: "£5,000.00",
+    p2: "",
+  },
+{
+  title: "",
+  text:"Drafting & Execution of a Simple Will",
+  p1:"£395.00",
+  p2:""
+
+},
+{
+  title: "",
+  text:"Codicil",
+  p1:"£225.00",
+  p2:""
+
+},
+
+
+]
+
+export const will_probatec=[
+  {
+    title: " ",
+    text:"Simple Trust Document (starting fee and E495.00 can be dependent on the complexity of  the matter)",
+    p1: "£495.00",
+    p2: "",
+  },
+
+  {
+    title: "Disbursement",
+    text:"Probate court fee",
+    p1: "£155.00 plus £1.50",
+    p2: "",
+  },
+{
+  title: "",
+  text:"Drafting & Execution of a Simple Will",
+  p1:"£395.00",
+  p2:""
+
+},
+{
+  title: "",
+  text:"Gazette protect against unexpected claims from unknown creditors",
+  p1:"",
+  p2:"£210.00"
+
+},
+
+{
+  title: "",
+  text:"A post in the Newspaper, this also helps lto protect against unexpected",
+  p1:"",
+  p2:"£100.00"
+
+},
+
+{
+  title:"",
+  text:"AML checks (Anti Money Laundering) expires after 3 months and after which requires renewal.",
+  p1:"£30 per person",
+  p2:""
+
+},
+{
+  title:"Potential additional costs:",
+  text:"ln the absence of a will or in cases where the estate includes share holdings (stocks and bonds), the potential for additional costs arises. The extent ofthese costs can vary considerably based on the nature of theestate and the approach taken for its administration. Once we gather further details, we can provide you with a more precise quotation.",
+  p1:"",
+  p2:""
+
+},
+{
+  title:"",
+  text:"A Deed of variation",
+  p1:"£650.00 (ex. VAT)",
+  p2:""
+
+},
+{
+  title:"",
+  text:"A Deed of Renunciation",
+  p1:"£250.00 (ex. VAT)",
+  p2:""
+
+},
+]
+
+export const empllaw=[
+  {
+    title: "Employment ",
+    text:"Before proceeding to engage our services, it is advisable to provide us with comprehensive details regarding your employment situation. This allows us to gather the necessary requirement and assess the strength of the case. A discussion during our consultation meeting is highly recommended for this purpose.",
+    p1: "£175.00 (ex. VAT)",
+    p2: "",
+  },
+
+  {
+    title: " ",
+    text:"Simple cases generally result in legal fees",
+    p1: "£3,000.00-£5,000.00 (ex. VAT)",
+    p2: "",
+  },
+
+  {
+    title: " ",
+    text:"Medium complexity cases generally results in legal fees",
+    p1: "£5,000.00-£12,000.00 (ex. VAT)",
+    p2: "",
+  },
+
+  {
+    title: " ",
+    text:"High complexity cases generally result in legal fees",
+    p1: "",
+    p2: "£30,000.00 (ex. VAT)",
+  },
+
+  {
+    title: " ",
+    text:"Tribunal Hearing depending on the complexity of your cases",
+    p1: "£800.00 per day (ex. VAT)",
+    p2: "",
+  },
+
+  {
+    title: " ",
+    text:"Compromise of Settlement Agreement",
+    p1: "£650.00",
+    p2: "",
+  },
+
+  
+  {
+    title: " ",
+    text:"lndependent Legal Advice",
+    p1: "£495.00",
+    p2: "",
+  },
+  {
+    title: "Disbursements: ",
+    text:"Related costs to your matter are payable to third parties, such as court fees. We handle the payment of the disbursements on yourbehalf to ensure a smoother process.",
+    p1: "",
+    p2: "",
+  },
+  {
+    title: " ",
+    text:"Counsel fees per day depending on experience of the advocate for attending a Tribunal Hearing (including preparation)",
+    p1: "",
+    p2: "£900.00-£1,500.00 (ex. VAT)",
+  },
+
+]
+
+export const miscellaneous=[
+  {
+    title: " Miscellaneous",
+    text:"Simple Lasting Power of Attorney/ Lasting Power of Attorney",
+    p1: "£1,500.00 ",
+    p2: "",
+  },
+  {
+    title: "",
+    text:"General Power of Attorney",
+    p1: "",
+    p2: "£300.00 ",
+  },
+  {
+    title: "",
+    text:"Drafting a Statutory Declaration",
+    p1: "",
+    p2: "£300.00 ",
+  },
+  {
+    title: "",
+    text:"Drafting a Affidavit",
+    p1: "",
+    p2: "£300.00 ",
+  },
+  {
+    title: "",
+    text:"Drafting a Change of Name Deed",
+    p1: "£425.00",
+    p2: " ",
+  },
+]

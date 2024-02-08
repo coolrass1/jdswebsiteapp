@@ -1,7 +1,7 @@
 import React from "react";
 import PriceElement from "../components/PriceElement";
 import PriceHeader from "../components/PriceHeader";
-import {convey, family_law, family_law_co, legal_aid, page1, page2, page22, purchasing} from "./Data"
+import {convey, family_law, family_law_co, legal_aid, page1, page2, page22, purchasing, administration,will_probate,will_probatec,empllaw,miscellaneous} from "./Data"
 
 const Fees = () => {
    const text1="  Initial consultation taking place during office hours 90minutemeeting with Solicitor followed by a letter summarising the meeting"
@@ -9,7 +9,7 @@ const Fees = () => {
     return (
       //title, price1title, price2title
     <div>
-      <div className="mx-36 mt-12 grid grid-cols-1 overflow-hidden " style={{ border: "2px solid black ", borderRadius:"25px"}}>
+      <div className="hidden mx-36 mt-12 lg:grid grid-cols-1 overflow-hidden " style={{ border: "2px solid black ", borderRadius:"25px"}}>
         <PriceHeader title="general" price1title="office hour rate" price2title="Out of office our rate"/>
         <PriceElement text={text1} p1={"£175.00"} p2={"£305.00"}/>
         <PriceElement text={text2} p1={"£150.00"} p2={"£250.00"}/>
@@ -35,8 +35,16 @@ const Fees = () => {
        <PriceHeader title="purchasing" price1title="leasehold" price2title="freehold" /> 
        {purchasing.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
        <PriceHeader title="administration of state" price1title="" price2title="" /> 
-
-      </div>
+       { administration.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+       <PriceHeader title="WILLS & PROBATE" price1title="" price2title="" /> 
+{will_probate.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+<PriceHeader title="WILLS & PROBATE (cont' d)" price1title="" price2title="" /> 
+{will_probatec.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>)}
+<PriceHeader title="EMPLOYMENT LAW" price1title="" price2title="" /> 
+ {empllaw.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>) }
+ <PriceHeader title="MISCELLANEOUS MATTERS" price1title="" price2title="" /> 
+ {miscellaneous.map(p=><PriceElement title={p.title} text={p.text} p1={p.p1} p2={p.p2}/>) }
+   </div>
     </div>
   );
 };

@@ -48,8 +48,8 @@ const Topbar = () => {
                 ABOUT US{" "}
                 </Link>
                 <div className="   opacity-0 min-h-[100px] min-w-[220px] flex flex-col gap-2 justify-start items-center absolute top-14 bg-white">
-                  <Link className="hover:bg-primary w-full text-center py-4" href="/about">Ourcompany</Link>
-                  <Link className="hover:bg-primary w-full text-center py-4" href="/solicitors">Our Splicitors</Link>
+                  <Link className="hover:bg-primary w-full text-center py-4" href="/about">Our Company</Link>
+                  <Link className="hover:bg-primary w-full text-center py-4" href="/solicitors">Our Solicitors</Link>
                 </div>
               </div>
           
@@ -83,12 +83,12 @@ const Topbar = () => {
       >
         <ul onClick={e=>Setisopen(false)}className={`  flex-col items-start justify-between gap-5`}>
         <li className="border-b-2 py-3 border-b-white min-w-full  ">
-            <Link className=" ml-3" href="#">
+            <Link className=" ml-3" href="/">
              HOME
             </Link>
           </li>
           <li className="border-b-2 py-3 border-b-white min-w-full  ">
-            <Link className=" ml-3" href="#">
+            <Link className=" ml-3" href="/about">
               ABOUT US
             </Link>
           </li>
@@ -98,12 +98,18 @@ const Topbar = () => {
             </Link>
           </li>
           <li className="border-b-2 py-3 border-b-white min-w-full ">
-            <Link className="ml-3" href="#">
+            <Link className="ml-3" href="/practice">
               PRACTICE AREAS
             </Link>
           </li>
+          <li className="border-b-2 py-3 border-b-white min-w-full ">
+            <Link className="ml-3" href="/fees">
+              FEES
+            </Link>
+          </li>
+         
           <li className="py-3 border-b-white min-w-full ">
-            <Link className="ml-3" href="#">
+            <Link className="ml-3" href="/contact">
               CONTACT US
             </Link>
           </li>

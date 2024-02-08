@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import { useRouter,  usePathname  } from 'next/navigation';
 
 const Slide1 = ({props,Handleclick,handleclickLeft}) => {
   const a = "u";
+  const router=useRouter()
 
   return (
     <section
@@ -23,7 +25,7 @@ const Slide1 = ({props,Handleclick,handleclickLeft}) => {
        {props?.title}
         </h1>
         <p className="md:text-3xl md:my-3 text-primary uppercase">{props?.text} </p>
-        <button className="px-8 py-2 bg-yellow-600 rounded-se text-white">
+        <button onClick={e=>router.push('/contact')}className="px-8 py-2 bg-yellow-600 rounded-se text-white">
           contact us{" "}
         </button>
         <div className="flex gap-2 pt-6">

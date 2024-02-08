@@ -4,7 +4,7 @@ const PriceElement = ({ text, title, p1, p2 }) => {
   return (
     <>
       <h5 className="px-14 mt-7 font-bold">{title}</h5>
-      <div className="px-14  grid grid-cols-4 gap-5 ">
+      <div className=" px-14  lg:grid lg:grid-cols-4 gap-5 ">
         {/* <div className="w-[25px] h-[15px] bg-slate-800"></div> */}
 
         {/* <p className="w-[70%] mt[-10px] border-r-2 border-black">
