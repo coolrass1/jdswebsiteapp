@@ -32,7 +32,7 @@ const Solicitor5 = () => {
           <h1 className="text-primary text-4xl font-extrabold mb-3">
           Ravi Pershad Sethi
           </h1>
-          <h3 className="font-extrabold mb-2">Senior Solicitor/ Consultant</h3>
+          <h3 className="font-extrabold mb-2">Senior Solicitor / Consultant</h3>
           <p className="py-4 text-justify">
           Ravi Pershad Sethi is qualified as a solicitor in 2004 and has been working in property transactions ever since, having expertise in Residential and Commercial transactions.
          

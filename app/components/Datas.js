@@ -57,7 +57,7 @@ export const listitems = [
 
 export const sliders = [
   { id:1,
-    title: "JDsolicitors is Always",
+    title: "JDS Solicitors is Always",
     text: "available 24/7",
     img: "/images/slider1.jpeg",
   },
@@ -75,7 +75,7 @@ export const sliders = [
   },
   {
     id:4,
-    title: "Qualified and competen solicitors",
+    title: "Qualified and competent solicitors",
     text: "client centered",
     img: "/images/slider4.jpeg",
   },
@@ -83,9 +83,9 @@ export const sliders = [
 
 export const teams=[
 {id:1,url:"/images/JDSOffiah.jpg", title:"A. J. Offiah, MA", text:"PRINCIPAL AND DIRECTOR"},
-{id:2, url:"/images/x.jpg", title:"Wilberforce Ehimika", text:"PRACTICE MANAGER"},
+{id:2, url:"/images/x.jpg", title:"Wilberforce Ehimika", text:"DIRECTOR / SOLICITOR"},
 {id:3,url:"/images/dolores.jpg", title:"Dolores A. Henry", text:"PRACTICE MANAGER"},
-{id:4,url:"/images/ravi.png", title:"Wilberforce Ehimika", text:"PRACTICE MANAGER"},
+{id:4,url:"/images/ravi.png", title:"Wilberforce Ehimika", text:"Senior Solicitor / Consultant"},
 {id:5, url:"/images/nneka.jpg", title:"Nneka Keazor", text:"CIVIL LAW SPECIALIST"},
 {id:6,url:"/images/edokolor.jpg", title:"Ighodaro Edokolor", text:"SOLICITOR / LEGAL CONSULTANT"},
 ]

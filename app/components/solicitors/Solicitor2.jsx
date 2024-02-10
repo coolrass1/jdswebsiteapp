@@ -30,7 +30,7 @@ const Solicitor2 = () => {
           <h1 className="text-primary text-4xl font-extrabold mb-3">
           Wilberforce Ehimika
           </h1>
-          <h3 className="font-extrabold mb-2">Director and Director</h3>
+          <h3 className="font-extrabold mb-2">Director / Solicitor </h3>
           <p className="py-4 text-justify">
           Wil is a solicitor of the courts of England & Wales; an astute lawyer of many years with experience in civil litigation, business law, and specialty in Commercial property, immigration law, written submissions, risk management, and compliance.
           </p>

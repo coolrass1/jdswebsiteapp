@@ -26,7 +26,7 @@ export const page1 = [
   },
   {
     title: "Student Visa Application:   ",
-    text: "Student visa application and extensions up to submission of the application either to th Home Office or to the Applicant.  ",
+    text: "Student visa application and extensions up to submission of the application either to the Home Office or to the Applicant.  ",
     p1: "£1,540.00",
     p2: "",
   },

@@ -17,8 +17,8 @@ const TeamCard = ({props}) => {
           />
     <div className='z-10 rounded-md bg-white p-5 flex flex-col gap-4 absolute bottom-[-100px] left-5'>
         <SocialLogo1/>
-        <h1 className='text-center text-primary'>{props.title}</h1>
-        <p className='text-center'>{props.text}</p>
+        <h1 className='text-center uppercase text-primary'>{props.title}</h1>
+        <p className='text-center uppercase'>{props.text}</p>
     </div>
     </div>
     </div>
