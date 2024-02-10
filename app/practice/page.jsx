@@ -19,7 +19,7 @@ const practice = () => {
 
       <Banner />
    
-      <div className="bg-white lg:px-12 flex flex-col justify-center items-center gap-7" >
+      <div className="bg-white lg:px-24 flex flex-col justify-center items-center gap-7" >
         {" "}
         <h1 className="text-center text-4xl font-extrabold text-secondary pt-7 ">OUR PRACTICE AREAS</h1>
         <p className=" text-center max-w-xl">

@@ -13,6 +13,7 @@ const TeamCard = ({props}) => {
              height={300}
              quality={100}
             alt="footer"
+            priority
             
           />
     <div className='z-10 rounded-md bg-white p-5 flex flex-col gap-4 absolute bottom-[-100px] left-5'>

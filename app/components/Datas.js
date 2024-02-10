@@ -1,54 +1,54 @@
 export const listitems = [
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/employment.svg",
     title: "Employment law",
     content:
       "JDS Solicitors have over the years developed considerable experience and expertise in dealing with a wide range of labour related matters.   ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/criminal.svg",
     title: "Criminal Law",
     content:
       "We enjoy an excellent reputation of providing strategic advice in areas of general and corporate criminal law.",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/family.svg",
     title: "Family Law",
     content:
       "We assist you at all stages, whether at the beginning, planning a future or at the end of a relationship.    ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/housing.svg",
     title: "Housing Law",
     content:
       "We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc    ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/property.svg",
     title: "Property Law",
     content:
       "The firm offers comprehensive service to real estate investors and developers in the form of title investigation and drafting of conveyances.    ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/litigation.svg",
     title: "Litigation Law",
     content:
       "Our litigation department offer advice to clients involved in litigated disputes.   ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/welfare.svg",
     title: "Welfare Benefits",
     content:
       " Getting the right advice early can help you in getting the right result and defending your position. ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/police.svg",
     title: "Police Station Representation",
     content:
       "Our experienced defence lawyers are available to attend the police station when you need us.    ",
   },
   {
-    url: "/images/one.svg",
+    url: "/images/minarea/immigration.svg",
     title: "Immigration Law",
     content:
       "We offer legal advice on student visas, work permits, business permit and permanent residence.   ",
