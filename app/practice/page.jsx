@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import { PracticeArea } from "../components/PracticeArea";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion"
+import {practicelist} from './Data'
 const practice = () => {
   return (
     <AnimatePresence mode="wait">
@@ -18,7 +19,7 @@ const practice = () => {
 
       <Banner />
    
-      <div className="bg-white flex flex-col justify-center items-center gap-7" >
+      <div className="bg-white lg:px-12 flex flex-col justify-center items-center gap-7" >
         {" "}
         <h1 className="text-center text-4xl font-extrabold text-secondary pt-7 ">OUR PRACTICE AREAS</h1>
         <p className=" text-center max-w-xl">
@@ -28,9 +29,11 @@ const practice = () => {
           of Law:
         </p>
         <div className="flex flex-col  gap-7 pb-7">
+
+          { practicelist.map((practi,k)=><PracticeArea key={k} practice={practi}/>)}
+          {/* <PracticeArea/>
           <PracticeArea/>
-          <PracticeArea/>
-          <PracticeArea/>
+          <PracticeArea/> */}
         </div>
    
       </div>
