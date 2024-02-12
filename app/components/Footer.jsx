@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <div>
               <h5 className="text-xl  font-bold mb-2  md:text-base">
-                Head office address
+               HEAD OFFICE
               </h5>
               <p>
                 St. Luke's Business Centre, Suite 3-4, 85 Tarling Road, London
@@ -99,10 +99,11 @@ const Footer = () => {
         {/********************* 2nd part */}
 
         <div className="mt-6 flex flex-col gap-3">
-          <h1 className="text-3xl text-primary font-bold my-6 md:my-1">
+          <h5 className="text-xl text-primary font-bold my-6 md:my-1 ">
+          
             {" "}
-            office
-          </h1>
+           Office
+          </h5>
           <div className="flex gap-2">
             <div className="flex justify-center items-start  text-lg ">
               <div className="bg-primary  text-white  p-2 rounded-md">
@@ -112,8 +113,7 @@ const Footer = () => {
             <div>
               <h5 className="text-xl  font-bold mb-2">office address</h5>
               <p>
-                St. Luke's Business Centre, Suite 3-4, 85 Tarling Road, London
-                E16 1HN
+              Unit 1, Lighterage Court, 41 High Street, Brentford, Middlesex TW8 0FT
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Footer = () => {
             </div>
             <div>
               <h5 className="text-xl  font-bold mb-2">Tel Available 24/7</h5>
-              <p className="text-primary">020 7366 6409</p>
+              <p className="text-primary">020 8570 7450</p>
             </div>
           </div>
 
