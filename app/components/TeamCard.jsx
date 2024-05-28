@@ -20,6 +20,7 @@ const TeamCard = ({props}) => {
         <SocialLogo1/>
         <h1 className='text-center uppercase text-primary'>{props.title}</h1>
         <p className='text-center uppercase'>{props.text}</p>
+      
     </div>
     </div>
     </div>

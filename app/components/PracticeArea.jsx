@@ -1,11 +1,12 @@
 import React from "react";
-
+import Image from 'next/image'
 export const PracticeArea = ({practice}) => {
   return (
     <div className="bg-white shadow-md flex  py-12 px-12 flex-col  justify-start items-start gap-10 hover:shadow-2xl [&>*:nth-child(1)]:hover:bg-secondary ">
       <div className="w-20 h-20 flex justify-center items-center border-2 border-primary rounded-full">
-        <img src={practice.url} alt="image" />
+        <Image  src={practice.url} alt="image" width={30} height={30}/>
       </div>
+      
       <p className="text-2xl text-center font-bold uppercase"> {practice.title}</p>
       <p>
       {practice.text}
