@@ -20,7 +20,7 @@ const Solicitor2 = () => {
         <div className="flex-[1]">
           <div className="w-80 h-auto">
             <img
-              src="/images/x.jpg"
+              src="/images/will.jpg"
               alt="solicitor"
               className="w-full h-full object-cover"
             />
