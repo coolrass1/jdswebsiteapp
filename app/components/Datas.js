@@ -57,19 +57,19 @@ export const listitems = [
 
 export const sliders = [
   { id:1,
-    title: "JDS Solicitors is Always",
-    text: "available 24/7",
+    title: "We are available from 9:30 A.M. - 5:00 A.M.",
+    text: "via telephone and email",
     img: "/images/slider1.jpeg",
   },
   {
     id:2,
-    title: "Best firm of solicitors",
+    title: "Dedicated firm of solicitors",
     text: "the best quality service",
     img: "/images/slider2.jpeg",
   },
   {
     id:3,
-    title: "We have best feature",
+    title: "We cover a range of areas",
     text: "flexible legal service",
     img: "/images/slider3.jpeg",
   },
@@ -83,7 +83,7 @@ export const sliders = [
 
 export const teams=[
 {id:1,url:"/images/JDSOffiah.jpg", title:"A. J. Offiah, MA", text:"PRINCIPAL AND DIRECTOR"},
-{id:2, url:"/images/x.jpg", title:"Wilberforce Ehimika", text:"DIRECTOR / SOLICITOR"},
+{id:2, url:"/images/will.jpg", title:"Wilberforce Ehimika", text:"DIRECTOR / SOLICITOR"},
 {id:3,url:"/images/dolores.jpg", title:"Dolores A. Henry", text:"PRACTICE MANAGER"},
 {id:4,url:"/images/ravi.jpg", title:"Wilberforce Ehimika", text:"Senior Solicitor / Consultant"},
 {id:5, url:"/images/nneka.jpg", title:"Nneka Keazor", text:"CIVIL LAW SPECIALIST"},
