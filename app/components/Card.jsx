@@ -7,7 +7,7 @@ const Card = () => {
       <h1>CRIMINAL LAW</h1>
       <p>
         We enjoy an excellent reputation of providing strategic advice in areas
-        of general and corporate criminal law
+        of general and criminal law
       </p>
     </div>
   );

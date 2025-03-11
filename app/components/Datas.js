@@ -9,7 +9,7 @@ export const listitems = [
     url: "/images/minarea/criminal.svg",
     title: "Criminal Law",
     content:
-      "We enjoy an excellent reputation of providing strategic advice in areas of general and corporate criminal law.",
+      "We enjoy an excellent reputation of providing strategic advice in areas of general and  criminal law.",
   },
   {
     url: "/images/minarea/family.svg",
