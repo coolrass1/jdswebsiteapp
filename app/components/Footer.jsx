@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2  md:text-base">
+              <h5 className="text-xl  font-bold mb-2   md:text-base">
                HEAD OFFICE
               </h5>
               <p>
@@ -68,15 +68,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-2">
-            <div className="flex justify-center items-start  text-lg ">
-              <div className="bg-primary  text-white  p-2 rounded-md">
-                <FaFax />
-              </div>
-            </div>
-            <div>
-              <h5 className="text-xl  font-bold mb-2">Fax</h5>
-              <p>020 7366 6409</p>
-            </div>
+            
+           
           </div>
           <div className="flex gap-2">
             <div className="flex justify-center items-start  text-lg ">
@@ -102,8 +95,9 @@ const Footer = () => {
           <h5 className="text-xl text-primary font-bold my-6 md:my-1 ">
           
             {" "}
-           Office
+           Brentford Office 
           </h5>
+          
           <div className="flex gap-2">
             <div className="flex justify-center items-start  text-lg ">
               <div className="bg-primary  text-white  p-2 rounded-md">
@@ -111,7 +105,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2">office address</h5>
+              <h5 className="text-xl  font-bold mb-2">Brentford office address</h5>
               <p>
               Unit 1, Lighterage Court, 41 High Street, Brentford, Middlesex TW8 0FT
               </p>
@@ -124,7 +118,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2">Tel Available 24/7</h5>
+              <h5 className="text-xl  font-bold mb-2">Call us from 9.30 A.M.- 5.30 P.M.</h5>
               <p className="text-primary">020 8570 7450</p>
             </div>
           </div>
@@ -144,13 +138,13 @@ const Footer = () => {
             <span className="text-primary font-semibold text-xs">
               Working Hours :
             </span>{" "}
-            <span className="text-xs">9.00am - 5.00pm</span>
+            <span className="text-xs">9.30 A.M.- 5.30 P.M.</span>
           </div>
         </div>
         {/*********************bottom #D8A42E */}
       </section>
       <div className="bg-slate-900 text-white py-10 w-screen  md:absolute md:bottom-px[-40px]">
-        <p className="text-center">Copyright © 2023 JDS Solicitors Limited</p>
+        <p className="text-center">Copyright © 2025 JDS Solicitors Limited</p>
       </div>
     </footer>
   );
