@@ -10,11 +10,19 @@ import { ImLocation } from "react-icons/im";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import SocialLogo from "./SocialLogo";
+import Sra from "./Sra";
 const Footer = () => {
   return (
     <footer className="bg-slate-200 md:pt-10 md:mb-10 md:relative">
       <section className="p-8 md:flex md:justify-center  md:items-start  md:gap-24 md:container md:max-w-screen-xl md:mx-auto md:px-2 md:py-0 md:pb-10">
+        
+      
+        
         <div className="flex flex-col justify-center md:h-96 items-start gap-6 md:gap-7">
+        <div className=" w-2/3">
+        
+        <Sra/>
+        </div>
           <div className="">
             <Image
               src="/images/logo.png"

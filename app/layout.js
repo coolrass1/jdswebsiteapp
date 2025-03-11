@@ -1,6 +1,7 @@
 
 import ButtonNav from './components/ButtonNav'
 import Footer from './components/Footer'
+import Sra from './components/Sra'
 import Topbar from './components/Topbar'
 import './globals.css'
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <Topbar/>
         {children}
         <ButtonNav/>
+        
         <Footer/>
        
         </body>
