@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center md:h-96 items-start gap-6 md:gap-7">
         <div className=" w-2/3">
         
-        <Sra/>
+        {/* <Sra/> */}
         </div>
           <div className="">
             <Image
