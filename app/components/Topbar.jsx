@@ -56,7 +56,7 @@ const Topbar = () => {
           </li>
           <li>
             <Link href="/mission-vision" className={`${activepage=="/mission-vision"?'text-primary':'text-secondary'} hover:text-primary pb-10`} >
-              MISION & VISION
+              MISSION
             </Link>
           </li>
           <li>

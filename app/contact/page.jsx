@@ -158,7 +158,7 @@ const Form1=()=>{return(<form
                   <p className="text-base  font-bold mb-2">
                     Phone:
                     <span className="text-primary ml-2">
-                      020 7366 6409
+                      020 8570 7450
                     </span>{" "}
                   </p>
                   <p className="text-base  font-bold mb-2">
