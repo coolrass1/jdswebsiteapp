@@ -85,7 +85,7 @@ export const teams=[
 {id:1,url:"/images/JDSOffiah.jpg", title:"A. J. Offiah, MA", text:"PRINCIPAL AND DIRECTOR"},
 {id:2, url:"/images/will.jpg", title:"Wilberforce Ehimika", text:"DIRECTOR / SOLICITOR"},
 {id:3,url:"/images/dolores.jpg", title:"Dolores A. Henry", text:"PRACTICE MANAGER"},
-{id:4,url:"/images/ravi.jpg", title:"Wilberforce Ehimika", text:"Senior Solicitor / Consultant"},
+{id:4,url:"/images/ravi.jpg", title:"Ravi Pershad Sethi", text:"Senior Solicitor / Consultant"},
 {id:5, url:"/images/nneka.jpg", title:"Nneka Keazor", text:"CIVIL LAW SPECIALIST"},
 {id:6,url:"/images/edokolor.jpg", title:"Ighodaro Edokolor", text:"SOLICITOR / LEGAL CONSULTANT"},
 ]
