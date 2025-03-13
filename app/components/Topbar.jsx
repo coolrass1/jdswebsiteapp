@@ -94,7 +94,7 @@ const Topbar = () => {
           </li>
           <li className="border-b-2 py-3 border-b-white min-w-full ">
             <Link className="ml-3" href="/mission-vision">
-              MISION & VISION
+              MISION 
             </Link>
           </li>
           <li className="border-b-2 py-3 border-b-white min-w-full ">
