@@ -15,7 +15,7 @@ const Mission = () => {
     document.body.style.overflow = 'unset';
 }
   const showSidebar = () => { 
-    SetisModalopen(true);
+    SetisModalopen(false);
 
     // Disables Background Scrolling whilst the SideDrawer/Modal is open
     if (typeof window != 'undefined' && window.document) {

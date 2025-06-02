@@ -3,6 +3,7 @@ import ButtonNav from './components/ButtonNav'
 import Footer from './components/Footer'
 import Sra from './components/Sra'
 import Topbar from './components/Topbar'
+import { Uppertop } from './components/Uppertop'
 import './globals.css'
 
 import { Inter, Roboto } from 'next/font/google'
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       
 
       <body className={roboto.className}>
+        <Uppertop/>
      
       <Topbar/>
         {children}

@@ -10,7 +10,7 @@ const Modal = ({ Handleclick }) => {
         <div className="shadow-sm w-10/12 h-[300px] md:h-[500px] md:w-[500px]  bg-black">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/hEnr6Ewpu_U?autoplay=1&mute=1"
+            src=""
             frameBorder={100}
             allow="autoplay; encrypted-media"
             allowFullScreen
