@@ -12,7 +12,7 @@ export const Uppertop = () => {
     return (
         <section className='px-36 py-10'>
 
-            <main className='hidden md:flex flex-row items-center justify-between'>
+            <main className='hidden xxl:flex flex-row items-center justify-between'>
                 <div className="cursor-pointer" onClick={e => router.push('/')}>  
                      <Image
                     src="/images/logo.png"
@@ -41,7 +41,7 @@ export const Uppertop = () => {
 
                 </div>
                 <article className='flex justify-center items-start'>
-                        <button onClick={e => router.push('/contact')} className="uppercase ml-3 px-16 py-3 shadow-xl bg-yellow-600 rounded-se text-white text-lg font-bold hover:bg-yellow-900 transition-all duration-300">
+                        <button onClick={e => router.push('/contact')} className=" uppercase ml-3 px-8 xl:px-16 py-1 xl:py-3 shadow-xl bg-yellow-600 rounded-se text-white text-lg font-bold hover:bg-yellow-900 transition-all duration-300">
                             contact us{" "}
                         </button>
                     </article>
