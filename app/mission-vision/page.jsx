@@ -9,18 +9,15 @@ const Mission = () => {
   const [isModalopen, SetisModalopen] = useState(false);
   //const Handleclick=e=>SetisModalopen(false)
   const Handleclick = () => {
-    SetisModalopen(false);
+    console.log("")
 
     /// Unsets Background Scrolling to use when SideDrawer/Modal is closed
-    document.body.style.overflow = 'unset';
+    
 }
   const showSidebar = () => { 
-    SetisModalopen(false);
+    console.log("")
 
-    // Disables Background Scrolling whilst the SideDrawer/Modal is open
-    if (typeof window != 'undefined' && window.document) {
-        document.body.style.overflow = 'hidden';
-    }
+   
 }
   return (
     <section className="">
@@ -37,7 +34,7 @@ const Mission = () => {
               <FaPlay />
             </div>
           </div>
-          {isModalopen && <Modal Handleclick={Handleclick}/>}
+          {/* {isModalopen && <Modal Handleclick={Handleclick}/>} */}
         </div>
         <div className="flex-1 flex flex-col gap-10 ">
           <h1 className="text-5xl font-extrabold ">
