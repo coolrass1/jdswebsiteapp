@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
           <p className="text-left  ">
             {" "}
-            JDS Solicitors is a small and growing family-friendly firm of
+            JDS Solicitors is a long standing and growing family-friendly firm of
             solicitors, offering a client-centred and flexible legal service to
             its clients and associates alike
           </p>
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
         {/********************* 2nd part */}
 
-        <div className="mt-6 flex flex-col gap-3">
+        {/* <div className="mt-6 flex flex-col gap-3">
           <h5 className="text-xl text-primary font-bold my-6 md:my-1 ">
           
             {" "}
@@ -148,7 +148,7 @@ const Footer = () => {
             </span>{" "}
             <span className="text-xs">9.30 A.M.- 5.30 P.M.</span>
           </div>
-        </div>
+        </div> */}
         {/*********************bottom #D8A42E */}
       </section>
       <div className="bg-slate-900 text-white py-10 w-screen  md:absolute md:bottom-px[-40px]">
