@@ -23,10 +23,11 @@ const Fees = () => {
   const text2 = "Initial consultation with other solicitor(Fee Earner).";
   return (
     //title, price1title, price2title
-    <div>
+    <div className="w-full px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto">
       <div
-        className="hidden mx-36 mt-12 lg:grid grid-cols-1 overflow-hidden "
-        style={{ border: "2px solid black ", borderRadius: "25px" }}
+        className="grid grid-cols-1 overflow-hidden shadow-lg"
+        style={{ border: "2px solid black ", borderRadius: "15px" }}
       >
         <PriceHeader
           title="general"
@@ -128,6 +129,7 @@ const Fees = () => {
         {miscellaneous.map((p,index) => (
           <PriceElement key={index} title={p.title} text={p.text} p1={p.p1} p2={p.p2} />
         ))}
+      </div>
       </div>
     </div>
   );
