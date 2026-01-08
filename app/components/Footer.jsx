@@ -13,13 +13,13 @@ import SocialLogo from "./SocialLogo";
 import Sra from "./Sra";
 const Footer = () => {
   return (
-    <footer className="bg-slate-200 md:pt-10 md:mb-10 md:relative">
-      <section className="p-8 md:flex md:justify-center  md:items-start  md:gap-24 md:container md:max-w-screen-xl md:mx-auto md:px-2 md:py-0 md:pb-10">
+    <footer className="bg-slate-200 pt-8 md:pt-10 mb-8 md:mb-10 relative">
+      <section className="p-4 sm:p-6 md:p-8 flex flex-col md:flex-row md:justify-center md:items-start gap-8 md:gap-12 lg:gap-24 container max-w-screen-xl mx-auto">
         
       
         
-        <div className="flex flex-col justify-center md:h-96 items-start gap-6 md:gap-7">
-        <div className=" w-2/3">
+        <div className="flex flex-col justify-center md:h-96 items-start gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+        <div className="w-2/3">
         
         {/* <Sra/> */}
         </div>
@@ -30,15 +30,16 @@ const Footer = () => {
               height={80}
               quality={70}
               alt="footer"
+              className="w-[120px] sm:w-[140px] md:w-[150px]"
             />
           </div>
-          <p className="text-left  ">
+          <p className="text-left text-sm sm:text-base leading-relaxed">
             {" "}
             JDS Solicitors is a long standing and growing family-friendly firm of
             solicitors, offering a client-centred and flexible legal service to
             its clients and associates alike
           </p>
-          <h5 className="text-2xl font-bold">Stay with us</h5>
+          <h5 className="text-xl sm:text-2xl font-bold">Stay with us</h5>
           <SocialLogo />
         </div>
 
@@ -151,8 +152,8 @@ const Footer = () => {
         </div> */}
         {/*********************bottom #D8A42E */}
       </section>
-      <div className="bg-slate-900 text-white py-10 w-screen  md:absolute md:bottom-px[-40px]">
-        <p className="text-center">Copyright © 2025 JDS Solicitors Limited</p>
+      <div className="bg-slate-900 text-white py-6 sm:py-8 md:py-10 w-full">
+        <p className="text-center text-xs sm:text-sm md:text-base">Copyright © 2025 JDS Solicitors Limited</p>
       </div>
     </footer>
   );

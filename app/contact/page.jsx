@@ -57,26 +57,25 @@ const CONTACT = () => {
   }
 const Form1=()=>{return(<form
               onSubmit={handleSubmit(onSubmit)}
-              className="flex flex-col gap-7 px-1 py-28"
+              className="flex flex-col gap-5 sm:gap-6 md:gap-7 px-2 sm:px-4 py-16 sm:py-20 md:py-28 w-full"
               
             >
-              <div>
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 w-full">
                 <input
                   type="text"
                   {...register("name")} 
-                  //className="py-2  my-7 md:my-0 w-full md:w-80  border-2 border-black "
                   placeholder="Enter your name"
                   className="bg-slate-50 text-secondary shadow-sm
-                  py-2 px-10 border-2 border-gray-100 cursor-pointer
-                   outline-none "
+                  py-2 sm:py-3 px-6 sm:px-10 border-2 border-gray-100 cursor-pointer
+                   outline-none w-full focus:border-primary transition-colors text-sm sm:text-base"
                  
                 />{" "}
                 <input
                   type="email"
                   {...register("email")} 
                   className="bg-slate-50 text-secondary shadow-sm
-                  py-2 px-10 border-2 border-gray-100 cursor-pointer
-                   outline-none "
+                  py-2 sm:py-3 px-6 sm:px-10 border-2 border-gray-100 cursor-pointer
+                   outline-none w-full focus:border-primary transition-colors text-sm sm:text-base"
                    placeholder="Enter your email"
                   //className="py-2 w-full  md:w-80 border-2 border-black"
                 />
@@ -85,21 +84,21 @@ const Form1=()=>{return(<form
                 type="text"
                 {...register("subject")} 
                 className="bg-slate-50 text-secondary shadow-sm
-                 py-2 px-10 border-2 border-gray-100 cursor-pointer
-                  outline-none "
+                 py-2 sm:py-3 px-6 sm:px-10 border-2 border-gray-100 cursor-pointer
+                  outline-none w-full focus:border-primary transition-colors text-sm sm:text-base"
                 placeholder="Your subject"
               />
 
               <textarea
                 className="bg-slate-50 text-secondary 
-                shadow-sm py-2 px-10 border-2 border-gray-100
-                 cursor-pointer outline-none "
+                shadow-sm py-2 sm:py-3 px-6 sm:px-10 border-2 border-gray-100
+                 cursor-pointer outline-none w-full min-h-[150px] focus:border-primary transition-colors text-sm sm:text-base"
                 id="msg"
                 name="user_message"
                 placeholder="Your message"
                 {...register("message")} 
               ></textarea>
-              <button type="submit" disabled={btnloading ? true : false} className="py-2  border-2 border-primary px-2 mx-1 inline uppercase md:w-44 hover:bg-white hover:text-primary font-extrabold text-white bg-primary disabled:bg-black">
+              <button type="submit" disabled={btnloading ? true : false} className="py-2 sm:py-3 border-2 border-primary px-4 sm:px-6 inline uppercase w-full sm:w-auto sm:max-w-[200px] hover:bg-white hover:text-primary font-extrabold text-white bg-primary disabled:bg-black transition-colors text-sm sm:text-base">
                 send message
               </button>
             </form>)}

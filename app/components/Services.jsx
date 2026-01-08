@@ -20,21 +20,21 @@ const Services = () => {
   };
   return (
     <section className="bg-bgprimary">
-     <div className=" container md:max-w-screen-md md:mx-auto lg:max-w-screen-xl">
-      <h1 className="text-3xl text-center md:pt-12 mb-3 text-secondary font-semibold ">
+     <div className="container px-4 sm:px-6 md:px-8 md:max-w-screen-md md:mx-auto lg:max-w-screen-xl">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center pt-8 md:pt-12 mb-3 text-secondary font-semibold">
         ABOUT JDS SOLICITORS
       </h1>
-      <p className=" text-center  mb-3  text-secondary ">
+      <p className="text-sm sm:text-base text-center mb-3 px-4 text-secondary">
         JDS Solicitors is a long standing and growing family-friendly firm of
         solicitors, offering a client-centred and flexible legal service to its
         clients and associates alike.
       </p>
-      <div className="bg-bgprimary flex flex-col justify-between items-center pt-20 gap-28">
-        <h1 className="text-4xl text-center text-secondary font-bold">
+      <div className="bg-bgprimary flex flex-col justify-between items-center pt-12 sm:pt-16 lg:pt-20 gap-16 sm:gap-20 lg:gap-28">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center text-secondary font-bold">
           SERVICES
         </h1>
 
-        <div className="flex flex-col gap-4 md:flex-row md:flex-wrap md:container md:max-w-screen-xl md:mx-auto">
+        <div className="flex flex-col gap-4 md:flex-row md:flex-wrap md:container md:max-w-screen-xl md:mx-auto md:justify-center">
           {obj?.map((o, index) => (
             <CardItem key={index} props={o} />
           ))}
@@ -49,16 +49,16 @@ const Services = () => {
         <CardItem/> */}
         </div>
       </div>
-      <div className="relative h-96 w-full mt-8 consultation_sm">
+      <div className="relative h-64 sm:h-80 lg:h-96 w-full mt-8 consultation_sm">
         <div
-          className="absolute inset-0 text-center text-white flex flex-col gap-6 justify-center items-center "
+          className="absolute inset-0 text-center text-white flex flex-col gap-4 sm:gap-6 justify-center items-center px-4"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
         >
-          <h1 className="text-center">GET A CONSULTATION</h1>
-          <p>
-            We help people  effectively and strategically defend their cases, whatever it might be
+          <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center">GET A CONSULTATION</h1>
+          <p className="text-sm sm:text-base lg:text-lg max-w-2xl">
+            We help people effectively and strategically defend their cases, whatever it might be
           </p>
-          <button className="px-8 py-2 bg-yellow-600 rounded-se text-white">
+          <button className="px-6 sm:px-8 py-2 sm:py-3 bg-yellow-600 rounded-se text-white text-sm sm:text-base hover:bg-yellow-700 transition-colors">
             contact us{" "}
           </button>
         </div>

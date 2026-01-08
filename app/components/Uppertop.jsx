@@ -10,54 +10,41 @@ export const Uppertop = () => {
     const router = useRouter()
 
     return (
-        <section className='px-36 py-10'>
+        <section className='px-4 sm:px-6 md:px-12 lg:px-24 xl:px-36 py-4 lg:py-10'>
 
-            <main className='hidden lg:flex flex-row items-center justify-between'>
-                <div className="cursor-pointer mr-3" onClick={e => router.push('/')}>  
+            <main className='hidden lg:flex flex-row items-center justify-between gap-4'>
+                <div className="cursor-pointer flex-shrink-0" onClick={e => router.push('/')}>  
                      <Image
                     src="/images/logo.png"
                     width={200}
                     height={100}
                     quality={70}
                     alt="logo "
+                    className="w-[150px] lg:w-[180px] xl:w-[200px]"
                 /></div>
-                <div className='flex gap-1'>
-                    <article className='flex flex-col gap-1 items-center justify-center'>
+                <div className='flex gap-2 lg:gap-4 flex-wrap lg:flex-nowrap'>
+                    <article className='flex flex-col gap-1 items-center justify-center min-w-[140px]'>
 
-                        <div className='flex gap-2'><div className="bg-primary  text-white  p-1 rounded-md"><FaPhoneAlt  /> </div><span className='text-sm xl:text-lg text-black'>PHONE</span></div>
-                        <div className='pl-2 xl:pl-7 text-sm xl:text-lg'> 02073666409</div>
+                        <div className='flex gap-2 items-center'><div className="bg-primary text-white p-1 rounded-md"><FaPhoneAlt /> </div><span className='text-xs lg:text-sm xl:text-base text-black font-medium'>PHONE</span></div>
+                        <div className='text-xs lg:text-sm xl:text-base'> 02073666409</div>
                     </article>
-                    <article className='flex flex-col gap-1 items-center justify-center'>
+                    <article className='flex flex-col gap-1 items-center justify-center min-w-[180px]'>
 
-                        <div className='flex gap-2'><div className="bg-primary  text-white  p-1 rounded-md"><IoMdMail /></div> <span className='text-sm xl:text-lg text-black'>Contact Email</span></div>
-                        <div className='pl-12 xl:pl-20'> admin@jdssolicitors.com</div>
+                        <div className='flex gap-2 items-center'><div className="bg-primary text-white p-1 rounded-md"><IoMdMail /></div> <span className='text-xs lg:text-sm xl:text-base text-black font-medium'>Contact Email</span></div>
+                        <div className='text-xs lg:text-sm xl:text-base'> admin@jdssolicitors.com</div>
                     </article>
-                    <article className='flex flex-col gap-1 items-center justify-center'>
+                    <article className='flex flex-col gap-1 items-center justify-center min-w-[180px]'>
 
-                        <div className='flex gap-2'><div className="bg-primary  text-white  p-1 rounded-md"><IoMdTime /></div> <span className='xl:text-lg text-black'>Working Hours</span></div>
-                        <div className='pl-2 text-sm  xl:text-lg xl:pl-20'> Mon - Fri : 09:00-17:00</div>
+                        <div className='flex gap-2 items-center'><div className="bg-primary text-white p-1 rounded-md"><IoMdTime /></div> <span className='text-xs lg:text-sm xl:text-base text-black font-medium'>Working Hours</span></div>
+                        <div className='text-xs lg:text-sm xl:text-base'> Mon - Fri : 09:00-17:00</div>
                     </article>
                    
 
                 </div>
-                <article className='flex justify-center items-start'>
-                        <button onClick={e => router.push('/contact')} className=" uppercase w-full sm:w-auto ml-3 text-4 px-4 xl:px-16 sm:py-2 xl:py-4 shadow-xl bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
+                <article className='flex justify-center items-start flex-shrink-0'>
+                        <button onClick={e => router.push('/contact')} className="uppercase w-full sm:w-auto text-xs lg:text-sm xl:text-base px-6 lg:px-12 xl:px-16 py-2 lg:py-3 xl:py-4 shadow-xl bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
                             contact us{" "}
                         </button>
-                        {/* <button className="
-  bg-blue-600 hover:bg-blue-700 
-  text-white font-medium 
-  py-4 lg:px-8 xl:px-16 xl:block sm:py-3 xl:py-4
-  rounded-lg 
-  transition-all duration-200 
-  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50
-  active:scale-95
-  shadow-md hover:shadow-lg
-  w-full sm:w-auto
-  text-sm sm:text-base
-">
-  Click Me
-</button> */}
 
                     </article>
             </main>
