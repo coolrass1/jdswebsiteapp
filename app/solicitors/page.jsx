@@ -16,7 +16,7 @@ const Solicitors = () => {
         <Solicitor2 />
         <Solicitor3 />
         <Solicitor4 />
-        <Solicitor5 />
+        {/* <Solicitor5 /> */}
         <Solicitor6 />
       </div>
     </section>

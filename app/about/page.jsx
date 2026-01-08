@@ -17,7 +17,7 @@ const Aboutus = () => {
             WHO ARE WE?
           </h1>
           <p className=" text-base pt-0 pb-7 text-center  font-extrabold text-secondary ">
-            JDS Solicitors is a small and growing family-friendly firm of
+            JDS Solicitors is a long standing and growing family-friendly firm of
             solicitors, offering a client-centred and flexible legal service to
             its clients and associates alike.
           </p>
