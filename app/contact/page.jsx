@@ -146,7 +146,7 @@ const Form1=()=>{return(<form
                     </span>
                   </p>
                 </div>
-                <div className="flex flex-col gap-3">
+                {/* <div className="flex flex-col gap-3">
                   <h2 className="text-lg font-extrabold uppercase  text-secondary ">
                     <span className="bg-primary pl-2 py-1 ">o</span>ffice
                   </h2>
@@ -167,7 +167,7 @@ const Form1=()=>{return(<form
                       admin@jdssolicitors.com
                     </span>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
