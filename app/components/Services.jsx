@@ -25,7 +25,7 @@ const Services = () => {
         ABOUT JDS SOLICITORS
       </h1>
       <p className=" text-center  mb-3  text-secondary ">
-        JDS Solicitors is a small and growing family-friendly firm of
+        JDS Solicitors is a long standing and growing family-friendly firm of
         solicitors, offering a client-centred and flexible legal service to its
         clients and associates alike.
       </p>
@@ -54,10 +54,9 @@ const Services = () => {
           className="absolute inset-0 text-center text-white flex flex-col gap-6 justify-center items-center "
           style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
         >
-          <h1 className="text-center">GET A FREE CONSULTATION</h1>
+          <h1 className="text-center">GET A CONSULTATION</h1>
           <p>
-            We help people effectively fight their offenders back and
-            successfully defend their own stand.
+            We help people  effectively and strategically defend their cases, whatever it might be
           </p>
           <button className="px-8 py-2 bg-yellow-600 rounded-se text-white">
             contact us{" "}
