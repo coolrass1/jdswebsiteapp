@@ -41,9 +41,24 @@ export const Uppertop = () => {
 
                 </div>
                 <article className='flex justify-center items-start'>
-                        <button onClick={e => router.push('/contact')} className=" uppercase ml-3 text-4 px-4 xl:px-16 sm:py-2 xl:py-4 shadow-xl bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
+                        <button onClick={e => router.push('/contact')} className=" uppercase w-full sm:w-auto ml-3 text-4 px-4 xl:px-16 sm:py-2 xl:py-4 shadow-xl bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
                             contact us{" "}
                         </button>
+                        {/* <button className="
+  bg-blue-600 hover:bg-blue-700 
+  text-white font-medium 
+  py-4 lg:px-8 xl:px-16 xl:block sm:py-3 xl:py-4
+  rounded-lg 
+  transition-all duration-200 
+  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50
+  active:scale-95
+  shadow-md hover:shadow-lg
+  w-full sm:w-auto
+  text-sm sm:text-base
+">
+  Click Me
+</button> */}
+
                     </article>
             </main>
 
