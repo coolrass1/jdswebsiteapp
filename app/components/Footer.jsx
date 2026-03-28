@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import {
   FaFacebookF,
   FaTwitter,
@@ -41,6 +42,11 @@ const Footer = () => {
           </p>
           <h5 className="text-xl sm:text-2xl font-bold">Stay with us</h5>
           <SocialLogo />
+          <div className="mt-4">
+            <Link href="/policy" className="text-primary hover:underline text-sm sm:text-base font-semibold">
+              Complaints Policy & Procedure
+            </Link>
+          </div>
         </div>
 
         {/*  #f1f1f1  f2*/}

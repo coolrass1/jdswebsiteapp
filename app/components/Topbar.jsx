@@ -74,6 +74,12 @@ const Topbar = () => {
             </Link>
           </li>
           <li>
+            <Link href="/policy" className={`${activepage == "/policy" ? 'text-primary' : 'text-secondary'} hover:text-primary pb-10`}>
+              <span className="text-base lg:text-xl xl:text-2xl">POLICY</span>
+
+            </Link>
+          </li>
+          <li>
             <Link href="/contact" className={`${activepage == "/contact" ? 'text-primary' : 'text-secondary'} hover:text-primary pb-10`}>
               <span className="text-base lg:text-xl xl:text-2xl">CONTACT US</span>
 
@@ -112,6 +118,11 @@ const Topbar = () => {
             </Link>
           </li>
 
+          <li className="border-b border-b-gray-600 min-w-full">
+            <Link className="block py-4 px-6 hover:bg-gray-800 text-base" href="/policy">
+              COMPLAINTS POLICY
+            </Link>
+          </li>
           <li className="min-w-full">
             <Link className="block py-4 px-6 hover:bg-gray-800 text-base" href="/contact">
               CONTACT US
