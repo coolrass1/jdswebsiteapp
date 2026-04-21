@@ -39,7 +39,7 @@ const Hero = () => {
               style={{ backgroundImage: `url(${slide.img})` }}
             >
               <div className="absolute inset-0 flex flex-col gap-2 sm:gap-3 justify-center items-center bg-black/25 backdrop-brightness-75 px-4">
-                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center uppercase text-white font-semibold px-4">
+                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-center uppercase text-white font-semibold px-4">
                   {slide.title}
                 </h1>
                 <p className="text-base sm:text-xl md:text-2xl lg:text-3xl my-1 sm:my-3 text-primary uppercase">

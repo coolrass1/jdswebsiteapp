@@ -57,7 +57,7 @@ export const listitems = [
 
 export const sliders = [
   { id:1,
-    title: "We are available from 9:30 A.M. - 5:00 A.M.",
+    title: "We are available from 9:30 A.M.- 5:00 P.M.",
     text: "via telephone and email",
     img: "/images/slider1.jpeg",
   },
