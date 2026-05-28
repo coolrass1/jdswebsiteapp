@@ -38,7 +38,7 @@ const Footer = () => {
             {" "}
             JDS Solicitors is a long standing and growing family-friendly firm of
             solicitors, offering a client-centred and flexible legal service to
-            its clients and associates alike
+            its clients and associates alike.
           </p>
           <h5 className="text-xl sm:text-2xl font-bold">Stay with us</h5>
           <SocialLogo />
@@ -93,7 +93,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2">Email Address</h5>
+              <h5 className="text-xl  font-bold mb-2">Email Addresss</h5>
               <p className="text-primary">admin@jdssolicitors.com</p>
             </div>
           </div>
