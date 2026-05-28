@@ -66,8 +66,7 @@ const Footer = () => {
                HEAD OFFICE
               </h5>
               <p>
-                St. Luke's Business Centre, Suite 3-4, 85 Tarling Road, London
-                E16 1HN
+                St Luke's Business Centre, Units 3–4, 85 Tarling Road, London E16 1HN
               </p>
             </div>
           </div>
@@ -78,13 +77,9 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2">Call Us 24/7</h5>
-              <p className="text-primary">020 7366 6409</p>
+              <h5 className="text-xl  font-bold mb-2">Call Us</h5>
+              <p className="text-primary">0207 366 6409</p>
             </div>
-          </div>
-          <div className="flex gap-2">
-            
-           
           </div>
           <div className="flex gap-2">
             <div className="flex justify-center items-start  text-lg ">
@@ -93,15 +88,25 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h5 className="text-xl  font-bold mb-2">Email Addresss</h5>
+              <h5 className="text-xl  font-bold mb-2">Email Address</h5>
               <p className="text-primary">admin@jdssolicitors.com</p>
             </div>
           </div>
-          <div>
+          <div className="mt-2">
             <span className="text-primary font-semibold text-xs">
-              Working Hours :
+              Office Opening Hours:
             </span>{" "}
-            <span className="text-xs">9.00am - 5.00pm</span>
+            <span className="text-xs">Monday – Friday: 9:30am to 5:30pm</span>
+            <p className="text-xs mt-1 opacity-75">Appointments outside these hours by prior arrangement only.</p>
+          </div>
+          <div className="mt-4 pt-4 border-t border-slate-300">
+            <h5 className="text-sm md:text-base font-bold mb-3 text-primary">Regulatory Information</h5>
+            <div className="space-y-1.5 text-xs md:text-sm">
+              <p>JDS Solicitors Ltd is authorised and regulated by the Solicitors Regulation Authority (SRA).</p>
+              <p className="bg-white p-2 rounded border-l-4 border-primary"><span className="font-semibold">SRA Number:</span> <span className="font-bold text-primary">653449</span></p>
+              <p className="bg-white p-2 rounded border-l-4 border-primary"><span className="font-semibold">VAT Registration Number:</span> <span className="font-bold text-primary">11295557</span></p>
+              <p className="mt-2 opacity-75">We adhere strictly to the SRA Standards and Regulations 2019 and comply with all Transparency Rules.</p>
+            </div>
           </div>
         </div>
         {/********************* 2nd part */}
@@ -159,7 +164,7 @@ const Footer = () => {
         {/*********************bottom #D8A42E */}
       </section>
       <div className="bg-slate-900 text-white py-6 sm:py-8 md:py-10 w-full">
-        <p className="text-center text-xs sm:text-sm md:text-base">Copyright © 2025 JDS Solicitors Limited</p>
+        <p className="text-center text-xs sm:text-sm md:text-base">Copyright © 2026 JDS Solicitors Limited</p>
       </div>
     </footer>
   );

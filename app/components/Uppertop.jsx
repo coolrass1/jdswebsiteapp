@@ -11,7 +11,26 @@ export const Uppertop = () => {
 
     return (
         <section className='px-4 sm:px-6 md:px-12 lg:px-24 xl:px-36 py-4 lg:py-10'>
+            {/* Mobile Version */}
+            <div className='lg:hidden flex flex-col gap-3'>
+                <div className="flex justify-between items-center">
+                    <div className="cursor-pointer" onClick={e => router.push('/')}>  
+                        <Image
+                            src="/images/logo.png"
+                            width={150}
+                            height={75}
+                            quality={70}
+                            alt="logo"
+                            className="w-[120px] sm:w-[140px]"
+                        />
+                    </div>
+                    <button onClick={e => router.push('/contact')} className="uppercase text-xs px-4 py-2 shadow-lg bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
+                        contact us
+                    </button>
+                </div>
+            </div>
 
+            {/* Desktop Version */}
             <main className='hidden lg:flex flex-row items-center justify-between gap-4'>
                 <div className="cursor-pointer flex-shrink-0" onClick={e => router.push('/')}>  
                      <Image
@@ -36,7 +55,7 @@ export const Uppertop = () => {
                     <article className='flex flex-col gap-1 items-center justify-center min-w-[180px]'>
 
                         <div className='flex gap-2 items-center'><div className="bg-primary text-white p-1 rounded-md"><IoMdTime /></div> <span className='text-xs lg:text-sm xl:text-base text-black font-medium'>Working Hours</span></div>
-                        <div className='text-xs lg:text-sm xl:text-base'> Mon - Fri : 09:00-17:00</div>
+                        <div className='text-xs lg:text-sm xl:text-base'> Mon - Fri : 09:30-17:30</div>
                     </article>
                    
 

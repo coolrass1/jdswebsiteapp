@@ -1,6 +1,7 @@
 "use client";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import RegulatoryBanner from "./components/RegulatoryBanner";
 const imageURL = "/../public/images/slider1.jpeg";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
@@ -17,6 +18,7 @@ export default function Home() {
           transition={{ duration: 2 }}
         >
           <Hero />
+          <RegulatoryBanner />
           <Services />
         </motion.div>
       </AnimatePresence>
