@@ -139,13 +139,34 @@ const PolicyPage = () => {
                       review, confirming our final position on your complaint and explaining our reasons.
                     </li>
                     <li>
-                      If you are still not satisfied, you can then contact the Legal Ombudsman:
-                      <div className="mt-4 p-6 bg-slate-50 border border-slate-200 rounded-lg space-y-2">
-                        <p><span className="font-bold">By letter:</span> Legal Ombudsman, PO BOX 6167, Slough SL 1 0EH</p>
-                        <p><span className="font-bold">By telephone:</span> callers from UK: 0300 555 0333 / callers from overseas: +44 121 245 3050</p>
-                        <p><span className="font-bold">By email:</span> <a href="mailto:enquiries@legalombudsman.org.uk" className="text-primary hover:underline">enquiries@legalombudsman.org.uk</a></p>
+                      <h4 className="font-bold text-lg mb-3">Legal Ombudsman</h4>
+                      <p className="mb-4 leading-relaxed">
+                        Upon going through our internal complaint procedure and remain unsatisfied with our final response/resolution, 
+                        you can then refer your complaint to the Legal Ombudsman, it is an independent complaints body appointed by 
+                        the Legal Services Act, who can investigate complaints about the legal service you received.
+                      </p>
+                      <p className="mb-4 leading-relaxed">
+                        The Legal Ombudsman will usually check that you have tried to resolve your complaint with JDS Solicitors us 
+                        first before then making your complaint to the Legal Ombudsman:
+                      </p>
+                      <ul className="list-disc pl-5 mb-4 space-y-2">
+                        <li>Within six months of receiving a final response to your complaint. and;</li>
+                        <li>No more than 1 year from the act/omission that lead to the complaint. Or;</li>
+                        <li>No more than 1 year from when you should reasonably have known there was cause for complaint.</li>
+                      </ul>
+                      <p className="mb-4 leading-relaxed">
+                        If you would like more information about the Legal Ombudsman, you can contact them directly.
+                      </p>
+                      <div className="mt-4 p-6 bg-slate-50 border border-slate-200 rounded-lg space-y-3">
+                        <p className="font-bold text-primary mb-2">You can contact the Legal Ombudsman by:</p>
+                        <p><span className="font-bold">Telephone:</span> 0300 555 0333</p>
+                        <p><span className="font-bold">Email:</span> <a href="mailto:enquiries@legalombudsman.org.uk" className="text-primary hover:underline">enquiries@legalombudsman.org.uk</a></p>
+                        <p><span className="font-bold">Website:</span> <a href="https://www.legalombudsman.org.uk" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.legalombudsman.org.uk</a></p>
+                        <div className="pt-3 border-t border-slate-300 mt-3">
+                          <p className="font-bold mb-1">The Legal Ombudsman correspondence address is:</p>
+                          <p>Legal Ombudsman, PO Box 6167, Slough, SL10EH</p>
+                        </div>
                       </div>
-                      <p className="mt-4">The Legal Ombudsman may be prepared to investigate your complaint if you satisfy the relevant criteria.</p>
                     </li>
                   </ol>
                 </div>
