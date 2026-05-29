@@ -11,25 +11,6 @@ export const Uppertop = () => {
 
     return (
         <section className='px-4 sm:px-6 md:px-12 lg:px-24 xl:px-36 py-4 lg:py-10'>
-            {/* Mobile Version */}
-            <div className='lg:hidden flex flex-col gap-3'>
-                <div className="flex justify-between items-center">
-                    <div className="cursor-pointer" onClick={e => router.push('/')}>  
-                        <Image
-                            src="/images/logo.png"
-                            width={150}
-                            height={75}
-                            quality={70}
-                            alt="logo"
-                            className="w-[120px] sm:w-[140px]"
-                        />
-                    </div>
-                    <button onClick={e => router.push('/contact')} className="uppercase text-xs px-4 py-2 shadow-lg bg-yellow-600 rounded-se text-white font-bold hover:bg-yellow-900 transition-all duration-300">
-                        contact us
-                    </button>
-                </div>
-            </div>
-
             {/* Desktop Version */}
             <main className='hidden lg:flex flex-row items-center justify-between gap-4'>
                 <div className="cursor-pointer flex-shrink-0" onClick={e => router.push('/')}>  

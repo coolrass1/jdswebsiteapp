@@ -1,9 +1,8 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useRouter } from 'next/navigation';
 import { sliders } from "./Datas";
@@ -14,13 +13,10 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden w-full">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }}
+        navigation={false}
         pagination={{ 
           clickable: true,
           bulletActiveClass: 'swiper-pagination-bullet-active',
@@ -55,18 +51,7 @@ const Hero = () => {
             </div>
           </SwiperSlide>
         ))}
-        
-        {/* Custom Navigation Arrows */}
-        <div className="swiper-button-prev hidden lg:flex justify-center items-center h-8 w-8 text-black hover:text-white rounded-full bg-gray-100 hover:bg-primary transition-colors after:content-[''] after:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-          </svg>
-        </div>
-        <div className="swiper-button-next hidden lg:flex justify-center items-center h-8 w-8 text-black hover:text-white rounded-full bg-gray-100 hover:bg-primary transition-colors after:content-[''] after:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-          </svg>
-        </div>
+
       </Swiper>
 
       <style jsx global>{`
@@ -83,40 +68,6 @@ const Hero = () => {
         .swiper-pagination-bullet-active {
           background: #D4AF37 !important;
           opacity: 1;
-        }
-        .swiper-button-prev,
-        .swiper-button-next {
-          color: #000000 !important;
-        }
-        .swiper-button-prev:hover,
-        .swiper-button-next:hover {
-          color: #ffffff !important;
-        }
-        .swiper-button-prev svg,
-        .swiper-button-next svg {
-          stroke: currentColor !important;
-        }
-        .swiper-button-prev {
-          left: 16px !important;
-        }
-        .swiper-button-next {
-          right: 16px !important;
-        }
-        @media (min-width: 640px) {
-          .swiper-button-prev {
-            left: 32px !important;
-          }
-          .swiper-button-next {
-            right: 32px !important;
-          }
-        }
-        @media (min-width: 1024px) {
-          .swiper-button-prev {
-            left: 44px !important;
-          }
-          .swiper-button-next {
-            right: 44px !important;
-          }
         }
       `}</style>
     </div>

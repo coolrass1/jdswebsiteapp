@@ -22,7 +22,7 @@ const Topbar = () => {
   }, [pathname])
   console.log(pathname + "po")
   return (
-    <header className="container max-w-screen-xl px-4 sm:px-6 lg:px-8 py-4 md:mb-7 md:mx-auto min-h-[80px] md:h-24 cursor-pointer bg-white flex flex-row items-center justify-between md:justify-center">
+    <header className="container max-w-screen-xl px-4 sm:px-6 lg:px-8 py-4 md:mb-7 md:mx-auto min-h-[80px] md:h-24 cursor-pointer bg-white flex flex-row items-center justify-between md:justify-center relative">
       <div className="md:hidden" onClick={() => { router.push('/'); Activenav() }}>
         <Image
           src="/images/logo.png"
@@ -123,11 +123,6 @@ const Topbar = () => {
               FEES
             </Link>
           </li>
-          <li className="border-b border-b-gray-600 min-w-full">
-            <Link className="block py-4 px-6 hover:bg-gray-800 text-base" href="/feeuptodate">
-              FEE UP TO DATE
-            </Link>
-          </li>
 
           <li className="border-b border-b-gray-600 min-w-full">
             <Link className="block py-4 px-6 hover:bg-gray-800 text-base" href="/policy">
@@ -143,7 +138,7 @@ const Topbar = () => {
       </nav>
       <div
         onClick={Handleclick}
-        className="border-2 p-2 border-gray-500 font-semibold text-2xl md:hidden flex justify-center items-center cursor-pointer hover:bg-gray-100 transition-colors"
+        className="border-2 p-2 border-gray-500 font-semibold text-2xl md:hidden flex justify-center items-center cursor-pointer hover:bg-gray-100 transition-colors z-[60] relative bg-white"
       >
         {!isopen ? <AiOutlineMenu /> : <AiOutlineClose />}
       </div>
