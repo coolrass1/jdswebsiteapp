@@ -38,19 +38,13 @@ const Solicitor4 = () => {
           </h1>
           <h3 className="font-extrabold mb-2">Principal and Director</h3>
           <p className="py-4 text-justify">
-            A Practising Solicitor and a member of the Resolution Association of
-            Family Lawyers
+            A Practising Solicitor of England &amp; Wales, <strong>admitted 2014 (12 years PQE)</strong>, and a member of Resolution — the Association of Family Lawyers.
           </p>
           <p className="py-4 text-justify">
-            Nneka specializes in Civil Law in Family, Housing, and Dispute
-            Resolution. She is also a Senior Manager in a London Borough.
+            Nneka specializes in Civil Law in Family, Housing, and Dispute Resolution. She is also a Senior Manager in a London Borough.
           </p>
           <p>
-            Nneka has a BSC in Biochemistry/Zoology and MSc in Business
-            Information Technology (Middlesex University, London). LLB Law
-            Degree from the University of London, Birkbeck College, and a PGD in
-            Legal Studies from the University of Law. Nneka is a Coach and
-            Mentor for vulnerable women and young people.
+            Nneka holds a BSc in Biochemistry/Zoology, an MSc in Business Information Technology (Middlesex University, London), an LLB Law Degree from the University of London (Birkbeck College), and a PGD in Legal Practice from the University of Law. Nneka is also a Coach and Mentor for vulnerable women and young people.
           </p>
 
           {readMore ? <Extend /> : ""}

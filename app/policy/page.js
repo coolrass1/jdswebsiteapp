@@ -168,6 +168,20 @@ const PolicyPage = () => {
                         </div>
                       </div>
                     </li>
+                    <li>
+                      <h4 className="font-bold text-lg mb-3">Solicitors Regulation Authority (SRA)</h4>
+                      <p className="mb-4 leading-relaxed">
+                        The SRA can help you if you are concerned about our behaviour. This could be for things like dishonesty, taking or losing your money or treating you unfairly because of your age, a disability or other characteristic.
+                      </p>
+                      <p className="mb-4 leading-relaxed">
+                        You can raise your concerns with the Solicitors Regulation Authority at any time.
+                      </p>
+                      <div className="mt-4 p-6 bg-slate-50 border border-slate-200 rounded-lg space-y-3">
+                         <p><span className="font-bold">Website:</span> <a href="https://www.sra.org.uk/consumers/problems/reports-solicitor/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.sra.org.uk</a></p>
+                         <p><span className="font-bold">Telephone:</span> 0370 606 2555</p>
+                         <p><span className="font-bold">Address:</span> The Cube, 199 Wharfside Street, Birmingham, B1 1RN</p>
+                      </div>
+                    </li>
                   </ol>
                 </div>
 

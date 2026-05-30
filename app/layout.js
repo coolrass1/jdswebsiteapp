@@ -5,6 +5,7 @@ import Sra from './components/Sra'
 import Topbar from './components/Topbar'
 import { Uppertop } from './components/Uppertop'
 import RegulatoryTopBar from './components/RegulatoryTopBar'
+import CookieConsent from './components/CookieConsent'
 import './globals.css'
 
 import { Inter, Roboto } from 'next/font/google'
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <ButtonNav/>
         
         <Footer/>
+        <CookieConsent/>
        
         </body>
     </html>

@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center md:h-96 items-start gap-4 sm:gap-5 md:gap-6 lg:gap-7">
         <div className="w-2/3">
         
-        {/* <Sra/> */}
+        <Sra/>
         </div>
           <div className="">
             <Image
@@ -42,9 +42,15 @@ const Footer = () => {
           </p>
           <h5 className="text-xl sm:text-2xl font-bold">Stay with us</h5>
           <SocialLogo />
-          <div className="mt-4">
+          <div className="mt-4 flex flex-col gap-2">
+            <Link href="/fees" className="text-primary hover:underline text-sm sm:text-base font-semibold">
+              Fees &amp; Transparency
+            </Link>
             <Link href="/policy" className="text-primary hover:underline text-sm sm:text-base font-semibold">
-              Complaints Policy & Procedure
+              Complaints Policy &amp; Procedure
+            </Link>
+            <Link href="/privacy" className="text-primary hover:underline text-sm sm:text-base font-semibold">
+              Privacy Policy
             </Link>
           </div>
         </div>

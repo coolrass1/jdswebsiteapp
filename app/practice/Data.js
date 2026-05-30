@@ -59,10 +59,10 @@ export const practicelist = [
     url:"/images/area/employment.svg"
   },
   {
-    title: "Property Law",
-    text: "The firm offers comprehensive service to real estate investors and developers in the form of title investigation, drafting of various types of conveyances, stamping and registration of documents. Our expertise reside in the preparation of leases, tenancies, licences, mortgages, assignments etc. and in dealings where Government consents are required for commercial, industrial and residential developments. ",
+    title: "Commercial Property Law",
+    text: "The firm offers comprehensive service to commercial real estate investors and developers in the form of title investigation, commercial leases, tenancies, licences, and business property transactions. Our expertise includes preparation of commercial leases, business tenancies, property licences, and dealings where Government consents are required for commercial and industrial developments. We do not currently offer residential conveyancing services.",
     smtitle: "Let's advise you on:",
-    listservices: ["Lease", "Purchasing", "Residential & Commercial Sale"],
+    listservices: ["Commercial Lease", "Business Property Transactions", "Commercial Property Sale"],
     url:"/images/area/property.svg"
   },
   {

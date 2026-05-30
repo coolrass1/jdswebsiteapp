@@ -25,9 +25,9 @@ export const listitems = [
   },
   {
     url: "/images/minarea/property.svg",
-    title: "Property Law",
+    title: "Commercial Property Law",
     content:
-      "The firm offers comprehensive service to real estate investors and developers in the form of title investigation and drafting of conveyances.    ",
+      "The firm offers comprehensive service to commercial real estate investors and developers. We focus on commercial property transactions only.",
   },
   {
     url: "/images/minarea/litigation.svg",
