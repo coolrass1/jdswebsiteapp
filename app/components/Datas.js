@@ -24,18 +24,6 @@ export const listitems = [
       "We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc    ",
   },
   {
-    url: "/images/minarea/property.svg",
-    title: "Commercial Property Law",
-    content:
-      "The firm offers comprehensive service to commercial real estate investors and developers. We focus on commercial property transactions only.",
-  },
-  {
-    url: "/images/minarea/litigation.svg",
-    title: "Litigation Law",
-    content:
-      "Our litigation department offer advice to clients involved in litigated disputes.   ",
-  },
-  {
     url: "/images/minarea/welfare.svg",
     title: "Welfare Benefits",
     content:
@@ -57,7 +45,7 @@ export const listitems = [
 
 export const sliders = [
   { id:1,
-    title: "We are available from 9:30 A.M.- 5:00 P.M.",
+    title: "We are available from 9:30 A.M.- 5:30 P.M.",
     text: "via telephone and email",
     img: "/images/slider1.jpeg",
   },
@@ -95,8 +83,6 @@ export const arealist=[
   {id:3, url:"/images/area/family.svg", text:"family law"},
   {id:4, url:"/images/area/housing.svg", text:"housing law"},
   {id:5, url:"/images/area/employment.svg", text:"employment law"},
-  {id:6, url:"/images/area/property.svg", text:"property law"},
-  {id:7, url:"/images/area/litigation.svg", text:"litigation law"},
   {id:8, url:"/images/area/welfare.svg", text:"welfare law"},
   {id:9, url:"/images/area/police.svg", text:"POLICE STATION REPRESENTATION"}
 

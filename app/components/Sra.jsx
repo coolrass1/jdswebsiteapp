@@ -2,8 +2,8 @@ import React from 'react'
 
 const Sra = () => {
   return (
-    <div>
-      <h5>SRA number:653449</h5>
+    <div className='w-full'>
+    
 
       <div style={{ maxWidth: '275px', maxHeight: '163px' }}>
         <div style={{ position: 'relative', paddingBottom: '59.1%', height: 'auto', overflow: 'hidden' }}>

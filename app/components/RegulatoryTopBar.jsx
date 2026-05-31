@@ -10,7 +10,9 @@ const RegulatoryTopBar = () => {
           <span className="hidden sm:inline opacity-50">|</span>
           <span className="text-primary font-semibold">VAT: 11295557</span>
           <span className="hidden sm:inline opacity-50">|</span>
-          <span className="opacity-90 hidden sm:inline">Compliant with SRA Standards & Regulations 2019</span>
+          <span className="text-primary font-semibold">Company: 11295557</span>
+          <span className="hidden sm:inline opacity-50">|</span>
+          <span className="opacity-90 hidden md:inline">Compliant with SRA Standards & Regulations 2019</span>
         </div>
       </div>
     </div>

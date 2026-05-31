@@ -164,7 +164,7 @@ const PolicyPage = () => {
                         <p><span className="font-bold">Website:</span> <a href="https://www.legalombudsman.org.uk" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.legalombudsman.org.uk</a></p>
                         <div className="pt-3 border-t border-slate-300 mt-3">
                           <p className="font-bold mb-1">The Legal Ombudsman correspondence address is:</p>
-                          <p>Legal Ombudsman, PO Box 6167, Slough, SL10EH</p>
+                          <p>Legal Ombudsman, PO Box 6167, Slough, SL1 0EH</p>
                         </div>
                       </div>
                     </li>

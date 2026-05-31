@@ -14,13 +14,13 @@ import SocialLogo from "./SocialLogo";
 import Sra from "./Sra";
 const Footer = () => {
   return (
-    <footer className="bg-slate-200 pt-8 md:pt-10 mb-8 md:mb-10 relative">
+    <footer className="bg-slate-200 pt-8 md:pt-10 mb-8 md:mb-10 relative overflow-hidden">
       <section className="p-4 sm:p-6 md:p-8 flex flex-col md:flex-row md:justify-center md:items-start gap-8 md:gap-12 lg:gap-24 container max-w-screen-xl mx-auto">
         
       
         
-        <div className="flex flex-col justify-center md:h-96 items-start gap-4 sm:gap-5 md:gap-6 lg:gap-7">
-        <div className="w-2/3">
+        <div className="flex flex-col justify-start items-start gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+        <div className="w-full max-w-[200px] sm:max-w-[250px]">
         
         <Sra/>
         </div>
@@ -111,6 +111,7 @@ const Footer = () => {
               <p>JDS Solicitors Ltd is authorised and regulated by the Solicitors Regulation Authority (SRA).</p>
               <p className="bg-white p-2 rounded border-l-4 border-primary"><span className="font-semibold">SRA Number:</span> <span className="font-bold text-primary">653449</span></p>
               <p className="bg-white p-2 rounded border-l-4 border-primary"><span className="font-semibold">VAT Registration Number:</span> <span className="font-bold text-primary">11295557</span></p>
+              <p className="bg-white p-2 rounded border-l-4 border-primary"><span className="font-semibold">Registered Company Number:</span> <span className="font-bold text-primary">11295557</span></p>
               <p className="mt-2 opacity-75">We adhere strictly to the SRA Standards and Regulations 2019 and comply with all Transparency Rules.</p>
             </div>
           </div>
