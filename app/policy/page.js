@@ -147,12 +147,14 @@ const PolicyPage = () => {
                       </p>
                       <p className="mb-4 leading-relaxed">
                         The Legal Ombudsman will usually check that you have tried to resolve your complaint with JDS Solicitors us 
-                        first before then making your complaint to the Legal Ombudsman:
+                        first before then making your complaint to the Legal Ombudsman.
+                      </p>
+                      <p className="mb-4 leading-relaxed">
+                        <span className="font-bold text-primary">You must refer your complaint within six months of receiving our final response</span>, and in any event no more than one year from either:
                       </p>
                       <ul className="list-disc pl-5 mb-4 space-y-2">
-                        <li>Within six months of receiving a final response to your complaint. and;</li>
-                        <li>No more than 1 year from the act/omission that lead to the complaint. Or;</li>
-                        <li>No more than 1 year from when you should reasonably have known there was cause for complaint.</li>
+                        <li>The act or omission that gave rise to the complaint; or</li>
+                        <li>When you should reasonably have known there was cause for complaint.</li>
                       </ul>
                       <p className="mb-4 leading-relaxed">
                         If you would like more information about the Legal Ombudsman, you can contact them directly.
