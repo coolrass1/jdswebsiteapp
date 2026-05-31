@@ -186,11 +186,6 @@ const PolicyPage = () => {
                 </div>
 
                 <div className="mt-8 space-y-4">
-                  <p className="leading-relaxed">
-                    You may have recourse to the Online Dispute Resolution Platform ("ODR Platform"), 
-                    which is an online alternative dispute resolution forum for consumers. The ODR 
-                    Platform may be accessed through this link: <a href="http://ec.europa.eu/odr" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">http://ec.europa.eu/odr</a>
-                  </p>
                   <p className="italic text-gray-600">
                     If we have to change any of the timescales above, we will let you know and explain why.
                   </p>
