@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const PracticeArea = ({practice}) => {
   // Services with published pricing on the fees page
-  const servicesWithPricing = ['Immigration Law', 'Employment Law', 'Housing Law', 'Probate & Estate Administration', 'Civil Litigation Law'];
+  const servicesWithPricing = ['Immigration Law', 'Employment Law', 'Probate & Estate Administration', 'Civil Litigation Law'];
   const hasPricing = servicesWithPricing.includes(practice.title);
   
   return (

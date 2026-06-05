@@ -37,13 +37,6 @@ export const practicelist = [
     url:"/images/area/family.svg"
   },
   {
-    title: "Housing Law",
-    text: " We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc. ",
-    smtitle: "Let's advise you on:",
-    listservices: ["Lease", "Tenancy", "Mortgages"],
-    url:"/images/area/housing.svg"
-  },
-  {
     title: "Employment Law",
     text: " JDS Solicitors have over the years developed considerable experience and expertise in dealing with a widerange of labour related matters. The Firm’s experience and expertise include drafting and reviewing of employment contracts, consultancy agreements and conditions of service, setting up of employee trust funds, legal representation in matters relating to wrongful dismissal of employees, various forms of discrimination, redundancy, severance awards and salary claims. ",
     smtitle: "We advice on:",

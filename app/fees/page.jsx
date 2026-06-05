@@ -13,7 +13,7 @@ const Feeuptodate = () => {
         <div className="mb-8 bg-blue-50 border-l-4 border-primary p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-bold text-secondary mb-2">Fees Information</h2>
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-            We publish information about our pricing for certain services that we provide to the public and to businesses as a law firm regulated by the SRA. The pricing information relates to advice we provide on immigration law (excluding asylum), employment law, housing law, and probate & estate administration.
+            We publish information about our pricing for certain services that we provide to the public and to businesses as a law firm regulated by the SRA. The pricing information relates to advice we provide on immigration law (excluding asylum), employment law, probate & estate administration, and debt recovery & commercial collections.
           </p>
           <div className="mt-3 text-xs sm:text-sm text-gray-700 space-y-2">
             <p>
@@ -80,6 +80,38 @@ const Feeuptodate = () => {
                   <li>Attending to you</li>
                   <li>Advising you on timeliness and the outcome of your application</li>
                 </ul>
+              </div>
+            </div>
+
+            {/* Lawyer-Specific Hourly Rates by Practice Area */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-secondary mb-2">Hourly Rates by Practice Area & Lawyer</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-3">
+                When a fixed fee is not agreed, hourly rates apply based on the lawyer handling your matter. Below are the specific hourly rates for each practice area:
+              </p>
+              
+              <div className="space-y-2">
+                <div className="bg-white p-3 rounded border-l-4 border-primary">
+                  <p className="text-xs sm:text-sm"><strong className="text-secondary">Criminal Law:</strong> A.J. Offiah - <strong className="text-primary">£300 per hour</strong></p>
+                </div>
+                
+                <div className="bg-white p-3 rounded border-l-4 border-primary">
+                  <p className="text-xs sm:text-sm"><strong className="text-secondary">Immigration Law:</strong> Nneka Keazor - <strong className="text-primary">£300 per hour</strong> | Ighodaro Edokpolor - <strong className="text-primary">£300 per hour</strong></p>
+                </div>
+                
+                <div className="bg-white p-3 rounded border-l-4 border-primary">
+                  <p className="text-xs sm:text-sm"><strong className="text-secondary">Employment Law:</strong> Wilberforce Ehimika - <strong className="text-primary">£300 per hour</strong></p>
+                </div>
+                
+                <div className="bg-white p-3 rounded border-l-4 border-primary">
+                  <p className="text-xs sm:text-sm"><strong className="text-secondary">Civil Litigation Law:</strong> Wilberforce Ehimika - <strong className="text-primary">£300 per hour</strong></p>
+                </div>
+              </div>
+              
+              <div className="mt-3 bg-amber-50 border-l-4 border-amber-500 p-3 rounded">
+                <p className="text-xs sm:text-sm text-amber-900">
+                  <strong>Note:</strong> All hourly rates exclude VAT (20%). The actual fee charged will depend on the time spent on your matter. We will provide you with a clear estimate before commencing work and keep you informed of costs as the matter progresses.
+                </p>
               </div>
             </div>
 

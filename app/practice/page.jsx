@@ -32,7 +32,7 @@ const practice = () => {
         {/* Pricing Information Notice */}
         <div className="w-full max-w-4xl bg-blue-50 border-l-4 border-primary p-4 sm:p-6 rounded-lg shadow-sm">
           <p className="text-sm sm:text-base text-gray-800 text-center">
-            <strong className="text-primary">Transparent Pricing:</strong> We publish detailed pricing information for Immigration, Employment, Housing, Probate & Estate Administration, and Civil Litigation services. 
+            <strong className="text-primary">Transparent Pricing:</strong> We publish detailed pricing information for Immigration, Employment, Probate & Estate Administration, and Civil Litigation services. 
             <a href="/fees" className="ml-1 font-bold text-secondary hover:underline transition-colors">
               View our fee schedule →
             </a>

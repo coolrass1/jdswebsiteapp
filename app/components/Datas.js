@@ -18,12 +18,6 @@ export const listitems = [
       "We provide comprehensive probate and estate administration services to help you navigate the legal process following the death of a loved one.",
   },
   {
-    url: "/images/minarea/housing.svg",
-    title: "Housing Law",
-    content:
-      "We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc.",
-  },
-  {
     url: "/images/minarea/immigration.svg",
     title: "Immigration Law",
     content:
@@ -75,9 +69,8 @@ export const arealist=[
   {id:1, url:"/images/area/criminal.svg", text:"criminal law"},
   {id:2, url:"/images/area/immigration.svg", text:"immigration law"},
   {id:3, url:"/images/area/family.svg", text:"probate & estate administration"},
-  {id:4, url:"/images/area/housing.svg", text:"housing law"},
-  {id:5, url:"/images/area/employment.svg", text:"employment law"},
-  {id:6, url:"/images/area/litigation.svg", text:"civil litigation law"}
+  {id:4, url:"/images/area/employment.svg", text:"employment law"},
+  {id:5, url:"/images/area/litigation.svg", text:"civil litigation law"}
 ]
 
 export const text= `${'<p className="py-4 text-justify">'}
