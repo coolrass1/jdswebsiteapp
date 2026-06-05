@@ -129,13 +129,11 @@ const ContactForm = ({
           })}
         >
           <option value="">Select an area of law...</option>
-          <option value="family-law">Family Law</option>
-          <option value="housing-law">Housing Law</option>
-          <option value="immigration">Immigration</option>
-          <option value="welfare-benefits">Welfare Benefits</option>
-          <option value="police-station">Police Station Representation</option>
-          <option value="crime">Crime & Criminal Defence</option>
-          <option value="civil-litigation">Civil Litigation</option>
+          <option value="criminal-law">Criminal Law</option>
+          <option value="immigration">Immigration Law</option>
+          <option value="probate">Probate & Estate Administration</option>
+          <option value="employment-law">Employment Law</option>
+          <option value="civil-litigation">Civil Litigation Law</option>
           <option value="other">Other / General Enquiry</option>
         </select>
         <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4 text-gray-400">
@@ -366,13 +364,21 @@ const CONTACT = () => {
     try {
       const response = await fetch(endpoint, options);
       const result = await response.json();
+      
+      console.log('Email API response:', result); // Debug log
+      
       if (result.isSent) {
         SetsentSucces(true);
         reset();
       } else {
-        setServerError("Failed to send message. Please try again or call us directly.");
+        const errorMsg = result.error 
+          ? `Failed to send message: ${result.error}` 
+          : "Failed to send message. Please try again or call us directly.";
+        setServerError(errorMsg);
+        console.error('Email sending failed:', result);
       }
     } catch (error) {
+      console.error('Network error:', error);
       setServerError("Network error. Please check your connection and try again.");
     } finally {
       setbtnloading(false);
