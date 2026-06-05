@@ -11,13 +11,16 @@ export const sendMail = async function (frommail, tomail, subject, message) {
   //   secure: true,
   // });
   const transporter = nodemailer.createTransport({
-    port: process.env.JDS_PORTSMAIL,
+    port: process.env.JDS_PORTSMAIL || 587,
     host: process.env.JDS_USERHOST,
     auth: {
       user: process.env.JDS_USERMAIL,
       pass: process.env.JDS_USERMAILPASSWORD,
     },
-    secure: true,
+    secure: process.env.JDS_PORTSMAIL === '465', // true for 465, false for other ports
+    tls: {
+      rejectUnauthorized: true
+    }
   });
   
   
@@ -36,10 +39,15 @@ export const sendMail = async function (frommail, tomail, subject, message) {
 
   try {
     const result = await transporter.sendMail(mailData);
+    console.log('Email sent successfully:', result.messageId);
     return true;
   } catch (error) {
-    
-console.log(error)
+    console.error('Email sending failed:', error.message);
+    console.error('Error details:', {
+      code: error.code,
+      command: error.command,
+      response: error.response
+    });
     return false;
   }
 };
