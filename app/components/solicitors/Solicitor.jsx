@@ -54,7 +54,7 @@ const Solicitor = () => {
             Afame, Kingsley, John OFFIAH; “AJ” to colleagues, other lawyers, and
             clients alike.
             <br />
-            Admitted as a Solicitor end of 1999; in 24th year as a Solicitor
+            Admitted as a Solicitor end of 1999; in 27th year as a Solicitor
             with unrestricted Practising Certificate; approaching 30 years in
             the law.
           </p>

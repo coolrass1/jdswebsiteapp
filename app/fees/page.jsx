@@ -11,13 +11,13 @@ const Feeuptodate = () => {
         </h1>
 
         <div className="mb-8 bg-blue-50 border-l-4 border-primary p-4 sm:p-6 rounded-lg shadow-sm">
-          <h2 className="text-lg sm:text-xl font-bold text-secondary mb-2">Transparency overview</h2>
+          <h2 className="text-lg sm:text-xl font-bold text-secondary mb-2">Fees Information</h2>
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-            This page sets out our published pricing, likely disbursements, typical stages and indicative timescales for the services we currently list with fixed or estimated fees. VAT is charged at the standard rate of 20% unless stated otherwise.
+            We publish information about our pricing for certain services that we provide to the public and to businesses as a law firm regulated by the SRA. The pricing information relates to advice we provide on immigration law (excluding asylum), employment law, housing law, and probate.
           </p>
           <div className="mt-3 text-xs sm:text-sm text-gray-700 space-y-2">
             <p>
-              If your matter is outside the examples below or has unusual complexity, we will explain the scope of work, how the fee is calculated and any likely third-party costs before work begins.
+              Fees and costs stated in our pricing information are in relation to our experience of the likely cost of dealing with similar matters/our best estimate of the likely amount of professional time incurred. There may be need to revise our fees in some circumstances where for example your instructions change, or unforeseen or exceptional circumstances arise.
             </p>
             <p>
               Other practice areas advertised on our site are quoted case by case, and we will confirm the likely cost basis in writing once we understand the details of the matter.
@@ -25,6 +25,64 @@ const Feeuptodate = () => {
             <p>
               For complaints and regulatory information, see the <Link href="/policy" className="font-semibold text-primary hover:underline">Complaints Policy</Link> and our <Link href="/solicitors" className="font-semibold text-primary hover:underline">Solicitors &amp; Staff</Link> page.
             </p>
+          </div>
+        </div>
+
+        {/* Initial Consultation */}
+        <div className="mb-8 bg-gray-50 border-l-4 border-secondary p-4 sm:p-6 rounded-lg shadow-sm">
+          <h2 className="text-lg sm:text-xl font-bold text-secondary mb-3">Initial Consultation</h2>
+          <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+            We offer an initial no obligation consultation which can either be in person or remotely via telephone, Zoom or any other agreed online platform. The cost of this service is between <strong>£150-£250 per hour excluding VAT</strong> depending on the year of experience of the solicitor or caseworker handling the matter.
+          </p>
+        </div>
+
+        {/* General Fee Information */}
+        <div className="mb-8 bg-white border-2 border-gray-300 rounded-lg shadow-sm">
+          <div className="bg-secondary text-white px-3 sm:px-6 py-3 sm:py-4 rounded-t-lg">
+            <h2 className="text-lg sm:text-xl font-bold">General Fee Information</h2>
+          </div>
+          <div className="p-4 sm:p-6 space-y-6">
+            
+            {/* VAT Section */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-secondary mb-2">VAT</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                All the prices quoted exclude VAT. This is charged at the prevailing rate and is payable on our fees and on most expenses which we are likely to incur on your behalf. VAT is payable subject to your immigration status in the United Kingdom.
+              </p>
+            </div>
+
+            {/* Disbursements Section */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-secondary mb-2">Disbursements</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                Disbursements are costs related to a client's matter that are payable to third parties, such as court fees, Home Office fees, or Barrister's fees and they are borne by clients. We will notify you of any disbursements and request that the fund is paid into the firm's account. Once we have received funds from you to cover the cost of any disbursement, we will handle the payment of the disbursements on your behalf to ensure a smoother process except the client instructs otherwise.
+              </p>
+            </div>
+
+            {/* Hourly Rate Section */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-secondary mb-2">Hourly Rate</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-3">
+                Prices quoted exclude VAT and may increase due to the complexity of the matter. Disbursements payable to third parties may change without our notice. Our hourly rates where a fixed fee is not agreed or where costs need to be assessed are as follows:
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-gray-700">
+                <li><strong>Trainee Solicitors, paralegals and other fee earners:</strong> £120 per hour</li>
+                <li><strong>Solicitors, legal executives and fee earners of equivalent experience:</strong> £165 per hour</li>
+                <li><strong>Solicitors and legal executives with over 4 years' experience:</strong> £250 - £300 per hour</li>
+                <li><strong>Solicitors and legal executives with over 8 years' experience:</strong> £250 - £300 per hour</li>
+              </ul>
+              <div className="mt-3 bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                <p className="text-xs sm:text-sm font-semibold text-blue-800 mb-2">The fees will cover:</p>
+                <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-blue-900">
+                  <li>Taking your detailed instructions and providing advice</li>
+                  <li>Considering documents</li>
+                  <li>Completing and submitting the Application</li>
+                  <li>Attending to you</li>
+                  <li>Advising you on timeliness and the outcome of your application</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -491,12 +549,12 @@ const Feeuptodate = () => {
           <div className="bg-gray-50 border-l-4 border-secondary p-4 sm:p-6 rounded-lg">
              <h3 className="text-lg font-bold mb-2 sm:mb-4 text-secondary">Team Qualifications & Experience</h3>
              <p className="text-xs sm:text-sm text-gray-700 mb-3 sm:mb-4">
-               All work is supervised by our Principal, <strong>Mr. A. J. Offiah</strong> (MA), who has over 24 years of post-qualification experience as a Solicitor.
+               All work is supervised by our Principal, <strong>Mr. A. J. Offiah</strong> (MA), who has over 27 years of post-qualification experience as a Solicitor.
              </p>
              
              <div className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700">
                <div className="bg-white p-3 rounded border-l-2 border-primary">
-                 <p><strong className="text-primary">Probate & Estate Administration:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 20 years PQE) and team, supervised by A. J. Offiah.</p>
+                 <p><strong className="text-primary">Probate & Estate Administration:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 18 years PQE) and team, supervised by A. J. Offiah.</p>
                </div>
                
                <div className="bg-white p-3 rounded border-l-2 border-primary">
@@ -504,11 +562,11 @@ const Feeuptodate = () => {
                </div>
                
                <div className="bg-white p-3 rounded border-l-2 border-primary">
-                 <p><strong className="text-primary">Employment Law:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 20 years PQE) and team, supervised by A. J. Offiah.</p>
+                 <p><strong className="text-primary">Employment Law:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 18 years PQE) and team, supervised by A. J. Offiah.</p>
                </div>
                
                <div className="bg-white p-3 rounded border-l-2 border-primary">
-                 <p><strong className="text-primary">Debt Recovery & Commercial Collections:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 20 years PQE), supervised by A. J. Offiah.</p>
+                 <p><strong className="text-primary">Debt Recovery & Commercial Collections:</strong> Handled by <strong>Wilberforce Ehimika</strong> (Solicitor, 18 years PQE), supervised by A. J. Offiah.</p>
                </div>
              </div>
              

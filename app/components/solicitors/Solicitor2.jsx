@@ -32,7 +32,7 @@ const Solicitor2 = () => {
           </h1>
           <h3 className="font-extrabold mb-2">Director / Solicitor </h3>
           <p className="py-2 text-justify">
-            Wil is a Solicitor of the Supreme Court of England &amp; Wales (admitted 2005), now in his <strong>20th year of post-qualification experience (PQE)</strong>. He is a co-Director and co-founder of JDS Solicitors Ltd.
+            Wil is a Solicitor of the Supreme Court of England &amp; Wales (admitted 2005), now in his <strong>18th year of post-qualification experience (PQE)</strong>. He is a co-Director and co-founder of JDS Solicitors Ltd.
           </p>
           <p className="py-2 text-justify">
             He has extensive expertise in civil litigation, business law, commercial property, immigration law, written submissions, risk management, and regulatory compliance. Wil also plays a leading role in the firm's compliance and supervision functions.
