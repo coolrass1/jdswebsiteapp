@@ -1,45 +1,39 @@
 export const listitems = [
   {
     url: "/images/minarea/employment.svg",
-    title: "Employment law",
+    title: "Employment Law",
     content:
-      "JDS Solicitors have over the years developed considerable experience and expertise in dealing with a wide range of labour related matters.   ",
+      "JDS Solicitors have over the years developed considerable experience and expertise in dealing with a wide range of labour related matters.",
   },
   {
     url: "/images/minarea/criminal.svg",
     title: "Criminal Law",
     content:
-      "We enjoy an excellent reputation of providing strategic advice in areas of general and  criminal law.",
+      "We enjoy an excellent reputation of providing strategic advice in areas of general and criminal law.",
   },
   {
     url: "/images/minarea/family.svg",
-    title: "Family Law",
+    title: "Probate & Estate Administration",
     content:
-      "We assist you at all stages, whether at the beginning, planning a future or at the end of a relationship.    ",
+      "We provide comprehensive probate and estate administration services to help you navigate the legal process following the death of a loved one.",
   },
   {
     url: "/images/minarea/housing.svg",
     title: "Housing Law",
     content:
-      "We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc    ",
-  },
-  {
-    url: "/images/minarea/welfare.svg",
-    title: "Welfare Benefits",
-    content:
-      " Getting the right advice early can help you in getting the right result and defending your position. ",
-  },
-  {
-    url: "/images/minarea/police.svg",
-    title: "Police Station Representation",
-    content:
-      "Our experienced defence lawyers are available to attend the police station when you need us.    ",
+      "We offer housing related services to clients in the form of title investigation, preparation of leases, tenancies, licences, mortgages, assignments etc.",
   },
   {
     url: "/images/minarea/immigration.svg",
     title: "Immigration Law",
     content:
-      "We offer legal advice on student visas, work permits, business permit and permanent residence.   ",
+      "We offer legal advice on student visas, work permits, business permit and permanent residence.",
+  },
+  {
+    url: "/images/minarea/litigation.svg",
+    title: "Civil Litigation Law",
+    content:
+      "Our litigation department offers advice to clients involved in litigated disputes across commercial, contract, and property matters.",
   },
 ];
 
@@ -80,12 +74,10 @@ export const teams=[
 export const arealist=[
   {id:1, url:"/images/area/criminal.svg", text:"criminal law"},
   {id:2, url:"/images/area/immigration.svg", text:"immigration law"},
-  {id:3, url:"/images/area/family.svg", text:"family law"},
+  {id:3, url:"/images/area/family.svg", text:"probate & estate administration"},
   {id:4, url:"/images/area/housing.svg", text:"housing law"},
   {id:5, url:"/images/area/employment.svg", text:"employment law"},
-  {id:8, url:"/images/area/welfare.svg", text:"welfare law"},
-  {id:9, url:"/images/area/police.svg", text:"POLICE STATION REPRESENTATION"}
-
+  {id:6, url:"/images/area/litigation.svg", text:"civil litigation law"}
 ]
 
 export const text= `${'<p className="py-4 text-justify">'}

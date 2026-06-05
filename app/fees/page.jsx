@@ -13,7 +13,7 @@ const Feeuptodate = () => {
         <div className="mb-8 bg-blue-50 border-l-4 border-primary p-4 sm:p-6 rounded-lg shadow-sm">
           <h2 className="text-lg sm:text-xl font-bold text-secondary mb-2">Fees Information</h2>
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-            We publish information about our pricing for certain services that we provide to the public and to businesses as a law firm regulated by the SRA. The pricing information relates to advice we provide on immigration law (excluding asylum), employment law, housing law, and probate.
+            We publish information about our pricing for certain services that we provide to the public and to businesses as a law firm regulated by the SRA. The pricing information relates to advice we provide on immigration law (excluding asylum), employment law, housing law, and probate & estate administration.
           </p>
           <div className="mt-3 text-xs sm:text-sm text-gray-700 space-y-2">
             <p>

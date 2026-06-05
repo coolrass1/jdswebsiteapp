@@ -23,16 +23,16 @@ export const practicelist = [
     url:"/images/area/immigration.svg"
   },
   {
-    title: "Family Law",
-    text: " We assist you at all stages, whether at the beginning of a relationship, planning a future or at the end of a relationship. ",
-    smtitle: "Let us provide you the needed advice on",
+    title: "Probate & Estate Administration",
+    text: "We provide comprehensive probate and estate administration services to help you navigate the legal process following the death of a loved one. Our experienced team handles everything from obtaining grants of probate to estate distribution, ensuring a smooth and sensitive process during difficult times.",
+    smtitle: "Our Services Include:",
     listservices: [
-      "Divorce",
-      "Separation",
-      "Adoption",
-      "Appeals",
-      "Custody",
-      "Children's Support",
+      "Grant of Probate Applications",
+      "Letters of Administration",
+      "Estate Valuation & Tax Planning",
+      "Estate Distribution",
+      "Trust Administration",
+      "Inheritance Disputes",
     ],
     url:"/images/area/family.svg"
   },
@@ -59,14 +59,7 @@ export const practicelist = [
     url:"/images/area/employment.svg"
   },
   {
-    title: "Commercial Property Law",
-    text: "The firm offers comprehensive service to commercial real estate investors and developers in the form of title investigation, commercial leases, tenancies, licences, and business property transactions. Our expertise includes preparation of commercial leases, business tenancies, property licences, and dealings where Government consents are required for commercial and industrial developments. We do not currently offer residential conveyancing services.",
-    smtitle: "Let's advise you on:",
-    listservices: ["Commercial Lease", "Business Property Transactions", "Commercial Property Sale"],
-    url:"/images/area/property.svg"
-  },
-  {
-    title: "Litigation Law",
+    title: "Civil Litigation Law",
     text: "Our litigation department offer advice to clients involved in litigated disputes. We represent our clients in all significant fields of law and in a wide range of cases spanning commercial and contract disputes, criminal matters, insurance claims, construction disputes, paternity suits, admiralty actions amongst others. We also handle litigation which may arise from real property disputes or landlord and tenant arrangements",
     smtitle: "Let's advise you on:",
     listservices: [
@@ -80,19 +73,5 @@ export const practicelist = [
     ],
     url:"/images/area/litigation.svg"
   },
-  {
-    title: "Welfare Benefits",
-    text: "The welfare benefits system is full of complex and technical rules, are you a claimant about to lose the benefits that you rely on, or are going to be subject to an accusation of benefit fraud? Getting the correct advice and assistance early can help you in getting the right result and defending your position. ",
-    smtitle: "Let's help you with:",
-    listservices: ["Backdated Claims for Benefits","Child Benefit/Guardian’s allowance","Industrial injuries benefits","Disability Living Allowance Appeals","Housing Tax Benefit","Income Support"],
-    url:"/images/area/welfare.svg"
-},
 
-  {
-    title: "Police Station Representation",
-    text: "An interview at a police station can be stressful and worrying. It is essential that you are aware of your rights. Our experienced defence lawyers are available to attend the police station when you need us. Our presence at the police station throughout the period of your detention ensures that the police deal with your case expeditiously and in accordance with the law. We assist in getting to the crux of the matter and advise you accordingly.",
-    smtitle: "",
-    listservices: [],
-    url:"/images/area/police.svg"
-  },
 ];
