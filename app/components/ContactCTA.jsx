@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -44,21 +45,36 @@ const ContactCTA = () => {
               </div>
             </motion.a>
 
-            {/* Email Action */}
-              <motion.a 
+            {/* Email Action: mailto on mobile, contact page link on desktop */}
+            {/* Mobile: keep mailto behavior */}
+            <motion.a
               href="mailto:admin@jdssolicitors.com"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="group bg-white/10 border-2 border-primary p-6 rounded-2xl flex items-center gap-6 backdrop-blur-md transition-all hover:bg-primary"
+              className="group bg-white/10 border-2 border-primary p-6 rounded-2xl flex items-center gap-6 backdrop-blur-md transition-all hover:bg-primary lg:hidden"
             >
               <div className="bg-primary text-secondary p-5 rounded-full group-hover:bg-secondary group-hover:text-primary transition-colors">
                 <FaEnvelope className="text-3xl" />
               </div>
-                <div className="min-w-0">
+              <div className="min-w-0">
                 <p className="text-primary font-bold text-sm uppercase tracking-widest group-hover:text-secondary group-hover:opacity-70 transition-colors">Send an Email</p>
                 <p className="text-white text-xl font-bold group-hover:text-secondary transition-colors truncate">admin@jdssolicitors.com</p>
               </div>
             </motion.a>
+
+            {/* Desktop: link to contact page for richer contact experience */}
+            <Link
+              href="/contact"
+              className="group bg-white/10 border-2 border-primary p-6 rounded-2xl flex items-center gap-6 backdrop-blur-md transition-all hover:bg-primary hidden lg:flex"
+            >
+              <div className="bg-primary text-secondary p-5 rounded-full group-hover:bg-secondary group-hover:text-primary transition-colors">
+                <FaEnvelope className="text-3xl" />
+              </div>
+              <div className="min-w-0">
+                <p className="text-primary font-bold text-sm uppercase tracking-widest group-hover:text-secondary group-hover:opacity-70 transition-colors">Contact Us</p>
+                <p className="text-white text-xl font-bold group-hover:text-secondary transition-colors truncate">Contact form & enquiries</p>
+              </div>
+            </Link>
 
           </div>
         </div>
