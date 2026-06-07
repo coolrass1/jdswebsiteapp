@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const StickyContact = () => {
@@ -17,17 +18,13 @@ const StickyContact = () => {
         <span className="font-bold text-sm tracking-tighter whitespace-nowrap">CALL 02073666409</span>
       </motion.a>
       
-      <motion.a
-        href="mailto:admin@jdssolicitors.com"
-        initial={{ x: 50 }}
-        animate={{ x: 0 }}
-        transition={{ delay: 0.1 }}
-        whileHover={{ x: -10 }}
+      <Link
+        href="/contact"
         className="bg-secondary text-primary p-4 flex items-center gap-4 rounded-l-xl shadow-xl border-y border-l border-white/20 group hover:bg-primary hover:text-secondary transition-all duration-300"
       >
         <FaEnvelope className="text-xl group-hover:scale-110 transition-transform" />
         <span className="font-bold text-sm tracking-tighter whitespace-nowrap">EMAIL US</span>
-      </motion.a>
+      </Link>
     </div>
   );
 };
