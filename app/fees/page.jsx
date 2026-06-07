@@ -487,13 +487,27 @@ const Feeuptodate = () => {
           </div>
         </section>
 
-        {/* Debt Recovery Section */}
+        {/* Civil Litigation Section */}
         <section className="mb-8 sm:mb-12">
           <div className="bg-primary text-white px-3 sm:px-6 py-3 sm:py-4 rounded-t-lg">
-            <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">4. Debt Recovery & Commercial Collections</h2>
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">4. Civil Litigation</h2>
           </div>
-          
+
           <div className="bg-white border-2 border-primary rounded-b-lg p-4 sm:p-6">
+            {/* Civil Litigation intro */}
+            <div className="mb-6 bg-amber-50 border-l-4 border-primary rounded-lg px-4 py-3 text-xs sm:text-sm text-gray-700 leading-relaxed">
+              <p>
+                For matters relating to civil litigation our general pricing fees apply, except Debt Recovery where the below fees apply.
+              </p>
+            </div>
+
+            {/* Debt Recovery Subsection */}
+            <div className="border-2 border-gray-200 rounded-xl overflow-hidden">
+              <div className="bg-secondary/10 border-b border-gray-200 px-4 sm:px-6 py-3">
+                <h3 className="text-base sm:text-lg font-bold text-secondary">Debt Recovery &amp; Commercial Collections</h3>
+              </div>
+
+            <div className="p-4 sm:p-6">
             <div className="mb-6 text-xs sm:text-sm text-gray-700">
               <p className="mb-3 leading-relaxed">
                 All fees are exclusive of VAT (20%) unless stated otherwise. Disbursements (third-party costs) are additional and explained clearly. <strong>No hidden charges</strong> – all costs agreed in writing before work begins.
@@ -648,7 +662,9 @@ const Feeuptodate = () => {
                 We will always confirm likely disbursements with you before they are incurred.
               </p>
             </div>
-          </div>
+            </div>{/* end Debt Recovery inner p-4 */}
+            </div>{/* end Debt Recovery subsection border box */}
+          </div>{/* end Civil Litigation bg-white */}
         </section>
 
         {/* Criminal Law Section */}
