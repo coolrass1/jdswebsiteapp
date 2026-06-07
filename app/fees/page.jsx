@@ -162,6 +162,187 @@ const Feeuptodate = () => {
             </table>
           </div>
 
+          {/* Probate Overview */}
+          <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-200">
+            {/* Header */}
+            <div className="bg-secondary px-5 sm:px-8 py-4 sm:py-5">
+              <p className="text-white text-xs sm:text-sm font-medium uppercase tracking-widest mb-1 opacity-70">Our Expertise</p>
+              <h3 className="text-white text-lg sm:text-2xl font-bold leading-snug">Probate, Wills &amp; Estate Administration</h3>
+            </div>
+
+            {/* Intro */}
+            <div className="bg-amber-50 border-b border-amber-100 px-5 sm:px-8 py-4 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2">
+              <p>
+                JDS Solicitors has an experienced team of lawyers in delivering high-quality legal services in matters relating to Probate, Wills and Estate Administration.
+              </p>
+              <p>
+                A team member is earmarked for each case ensuring consistency and clear communication. Other members of the team would assist as necessary.
+              </p>
+            </div>
+
+            {/* How We Can Assist */}
+            <div className="bg-white px-5 sm:px-8 py-5 border-b border-gray-100">
+              <p className="text-xs sm:text-sm font-semibold text-secondary mb-3 uppercase tracking-wide">How We Can Assist</p>
+              <p className="text-xs sm:text-sm text-gray-700 mb-3 leading-relaxed">
+                JDS Solicitors understand that dealing with the administration of an estate can be a difficult and emotional process. We can support you by:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {[
+                  "Obtaining the Grant of Probate on your behalf.",
+                  "Collecting and distributing the assets of the estate.",
+                  "Advising on the most efficient and appropriate way to administer the estate.",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2 bg-secondary/5 border border-secondary/15 rounded-lg p-3 text-xs sm:text-sm text-gray-700">
+                    <span className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                      <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1"/>
+                      </svg>
+                    </span>
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
+                Where you are the executor or administrator of an estate, you may wish to seek legal representation. Below is an overview of the services we offer and the likely fees.
+              </p>
+            </div>
+
+            {/* Grant of Representation */}
+            <div className="bg-white px-5 sm:px-8 py-5 border-b border-gray-100">
+              <h4 className="text-sm sm:text-base font-bold text-secondary mb-3">Obtaining the Grant of Representation <span className="font-normal text-gray-500 text-xs">(England &amp; Wales Only)</span></h4>
+              <p className="text-xs sm:text-sm text-gray-700 mb-3 leading-relaxed">
+                This service is for clients who provide us with all necessary financial information, including:
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-gray-700 mb-3">
+                <li>Date-of-death balances for accounts and investments</li>
+                <li>Property valuations</li>
+                <li>Details of liabilities</li>
+              </ul>
+              <p className="text-xs sm:text-sm text-gray-700 mb-2 font-semibold">We will:</p>
+              <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-gray-700 mb-3">
+                <li>Draft and submit Inheritance Tax forms (as required)</li>
+                <li>Submit the probate application</li>
+              </ul>
+              <p className="text-xs sm:text-sm text-gray-600 italic">
+                VAT is a government tax that we are required to charge, and will usually be added at 20% to our fees and disbursements, except where we indicate the disbursements are outside the scope of VAT.
+              </p>
+            </div>
+
+            {/* Estate Administration */}
+            <div className="bg-white px-5 sm:px-8 py-5 border-b border-gray-100">
+              <h4 className="text-sm sm:text-base font-bold text-secondary mb-3">Estate Administration</h4>
+              <p className="text-xs sm:text-sm text-gray-700 mb-3">Our full estate administration service includes:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5">
+                {[
+                  "Reviewing the Will and advising on distribution",
+                  "Obtaining valuations of all estate assets and liabilities",
+                  "Completing Inheritance Tax forms and assisting with any tax payments",
+                  "Drafting the required legal statements",
+                  "Liaising with HMRC and the Probate Registry",
+                  "Closing or transferring estate assets",
+                  "Settling any liabilities",
+                  "Preparing detailed estate accounts",
+                  "Distributing funds to beneficiaries",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2 text-xs sm:text-sm text-gray-700 py-1 border-b border-gray-100 last:border-0">
+                    <span className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                      <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1"/>
+                      </svg>
+                    </span>
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Fees & Timeframes */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 bg-white border-b border-gray-100">
+              {/* Fees */}
+              <div className="px-5 sm:px-6 py-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                  <h4 className="text-sm font-bold text-secondary uppercase tracking-wide">Fees</h4>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-700 mb-2 leading-relaxed">
+                  Our fees for full estate administration are typically based on a percentage of the gross value of the estate:
+                </p>
+                <div className="space-y-1.5 text-xs sm:text-sm">
+                  <div className="flex items-center gap-2 bg-amber-50 border border-amber-200 rounded px-3 py-2">
+                    <span className="font-bold text-secondary">1% – 4%</span>
+                    <span className="text-gray-600">of the gross estate value</span>
+                    <span className="ml-auto text-gray-500 italic text-xs">Min: £2,500</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-50 border border-gray-200 rounded px-3 py-2">
+                    <span className="font-bold text-secondary">£200 – £400</span>
+                    <span className="text-gray-600">hourly rate (+VAT) where applicable</span>
+                  </div>
+                </div>
+                <p className="mt-3 text-xs text-gray-500 leading-relaxed">
+                  Rates reflect complexity: type and number of assets, inheritance tax matters, number of beneficiaries, and any cross-border or trust issues. A detailed cost estimate is provided before work begins.
+                </p>
+              </div>
+
+              {/* Timeframes */}
+              <div className="px-5 sm:px-6 py-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <svg className="w-4 h-4 text-secondary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10"/><path strokeLinecap="round" d="M12 6v6l4 2"/>
+                  </svg>
+                  <h4 className="text-sm font-bold text-secondary uppercase tracking-wide">Timeframes</h4>
+                </div>
+                <div className="space-y-3 text-xs sm:text-sm text-gray-700">
+                  <div className="bg-secondary/5 border border-secondary/15 rounded-lg p-3">
+                    <p className="font-semibold text-secondary mb-1">Standard Cases</p>
+                    <p>Grant of Probate: typically <strong>3–6 months</strong></p>
+                    <p>Full administration: additional <strong>6–12 months</strong></p>
+                  </div>
+                  <div className="bg-secondary/5 border border-secondary/15 rounded-lg p-3">
+                    <p className="font-semibold text-secondary mb-1">Complex Cases</p>
+                    <p>May take <strong>18–24 months</strong> to conclude</p>
+                  </div>
+                  <p className="text-xs text-gray-500 italic">JDS Solicitors will provide an estimated timeline for your circumstances at the outset.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Disbursements */}
+            <div className="bg-amber-50 border-t border-amber-100 px-5 sm:px-8 py-5">
+              <div className="flex items-center gap-2 mb-3">
+                <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                </svg>
+                <h4 className="text-sm font-bold text-secondary uppercase tracking-wide">Disbursements</h4>
+              </div>
+              <p className="text-xs sm:text-sm text-gray-700 mb-3 leading-relaxed">
+                You will also need to pay for disbursements — costs paid to third parties such as the Probate Registry. The likely disbursements are:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm">
+                <div className="bg-white border border-amber-200 rounded-lg px-4 py-2.5 flex justify-between items-center">
+                  <span className="text-gray-700">Probate Registry application fee</span>
+                  <span className="font-bold text-secondary ml-3">£300.00</span>
+                </div>
+                <div className="bg-white border border-amber-200 rounded-lg px-4 py-2.5 flex justify-between items-center">
+                  <span className="text-gray-700">Additional copies of Grant of Representation</span>
+                  <span className="font-bold text-secondary ml-3">£1.50 / copy</span>
+                </div>
+              </div>
+              <p className="mt-3 text-xs sm:text-sm text-gray-700 font-semibold">To protect executors from claims, the following may also apply:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2 text-xs sm:text-sm">
+                <div className="bg-white border border-amber-200 rounded-lg px-4 py-2.5 flex justify-between items-center">
+                  <span className="text-gray-700">Bankruptcy searches (per beneficiary)</span>
+                  <span className="font-bold text-secondary ml-3">£6.00</span>
+                </div>
+                <div className="bg-white border border-amber-200 rounded-lg px-4 py-2.5 flex justify-between items-center">
+                  <span className="text-gray-700">Public Notices (London Gazette &amp; Local Newspaper)</span>
+                  <span className="font-bold text-secondary ml-3">~£300.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Additional Probate Disbursements */}
           <div className="mt-4 sm:mt-6 bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-300">
             <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-secondary">Additional Probate Disbursements:</h3>
