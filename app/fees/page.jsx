@@ -256,68 +256,105 @@ const Feeuptodate = () => {
         </section>
 
           {/* Immigration Overview */}
-          <div className="mt-4 sm:mt-6 bg-white p-4 sm:p-6 rounded-lg border border-gray-200 space-y-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
-            <p>
-              We offer a wide range of Immigration advice and our team of immigration lawyers are able to assist with various immigration matters.
-            </p>
-            <p>
-              Immigration and Asylum Law is vast and ever-changing; much changes have been seen within the last few years especially.
-            </p>
-            <p>Our experienced team will provide legal advice on the following Immigration issues:</p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li>All Entry clearance applications: Visit, Points Based Applications, Settlement, etc.</li>
-              <li>All Point Base applications in-country [Tier 1, Tier 2, Tier 4, and Tier 5]</li>
-              <li>Private and Family Life application [FLR(FP), FLR(M)]</li>
-              <li>Discretionary applications [FLR(HRO)]</li>
-              <li>European Union visa application for family members and extended family members.</li>
-              <li>Indefinite Leave to Remain (ILR) and Permanent Residence</li>
-              <li>Naturalisation and British Passport application</li>
-              <li>No Time Limit &amp; Transfer of Conditions of Stay</li>
-              <li>Appeals and Representation to Immigration First-Tier Tribunal and Upper Tribunal</li>
-              <li>Attending Immigration Tribunals for Bails</li>
-              <li>Asylum applications and appeals</li>
-              <li>Reconsideration and Administrative Review</li>
-              <li>Removal or deportation</li>
-              <li>Judicial Review Claim at the AIT, High Court</li>
-            </ul>
+          <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-200">
+            {/* Header */}
+            <div className="bg-secondary px-5 sm:px-8 py-4 sm:py-5">
+              <p className="text-white text-xs sm:text-sm font-medium uppercase tracking-widest mb-1 opacity-70">Our Expertise</p>
+              <h3 className="text-white text-lg sm:text-2xl font-bold leading-snug">Immigration Legal Services</h3>
+            </div>
 
-            <div>
-              <h4 className="font-bold text-secondary mb-1">Timescales for Immigration matters</h4>
+            {/* Intro */}
+            <div className="bg-amber-50 border-b border-amber-100 px-5 sm:px-8 py-4 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2">
               <p>
-                At JDS Solicitors preparations of immigration applications are usually concluded within a 14 days&apos; time period, from the date we receive all requested supporting documents and payment of our legal fees including other relevant fees in full. The above time scale may take longer where a case is complicated however clients will be kept updated at every relevant stage of the application process.
+                We offer a wide range of Immigration advice and our team of immigration lawyers are able to assist with various immigration matters.
               </p>
-              <p className="mt-2">
-                We are unable to provide specific advice on how long it will take the Home Office to decide a matter as the Home Office has its own internal processes and procedures in dealing with each application.
+              <p>
+                Immigration and Asylum Law is vast and ever-changing; much change has been seen within the last few years especially.
               </p>
-              <p className="mt-2">
-                Please read the Home Office current processing times on their website:{' '}
+            </div>
+
+            {/* Services Grid */}
+            <div className="bg-white px-5 sm:px-8 py-5 sm:py-6">
+              <p className="text-xs sm:text-sm font-semibold text-secondary mb-4 uppercase tracking-wide">Our experienced team advises on:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                {[
+                  "All Entry clearance applications: Visit, Points Based Applications, Settlement, etc.",
+                  "All Point Base applications in-country [Tier 1, Tier 2, Tier 4, and Tier 5]",
+                  "Private and Family Life applications [FLR(FP), FLR(M)]",
+                  "Discretionary applications [FLR(HRO)]",
+                  "EU visa applications for family members and extended family members",
+                  "Indefinite Leave to Remain (ILR) and Permanent Residence",
+                  "Naturalisation and British Passport applications",
+                  "No Time Limit & Transfer of Conditions of Stay",
+                  "Appeals and Representation to First-Tier and Upper Tribunal",
+                  "Attending Immigration Tribunals for Bails",
+                  "Asylum applications and appeals",
+                  "Reconsideration and Administrative Review",
+                  "Removal or deportation",
+                  "Judicial Review Claim at the AIT, High Court",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2 text-xs sm:text-sm text-gray-700 py-1 border-b border-gray-100 last:border-0">
+                    <span className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                      <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1" />
+                      </svg>
+                    </span>
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Timescales Card */}
+            <div className="mx-4 sm:mx-8 mb-4 rounded-lg border border-secondary/20 bg-secondary/5 overflow-hidden">
+              <div className="flex items-center gap-2 bg-secondary/10 px-4 py-2 border-b border-secondary/20">
+                <svg className="w-4 h-4 text-secondary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10"/><path strokeLinecap="round" d="M12 6v6l4 2"/>
+                </svg>
+                <h4 className="text-xs sm:text-sm font-bold text-secondary uppercase tracking-wide">Timescales for Immigration Matters</h4>
+              </div>
+              <div className="px-4 py-3 space-y-2 text-xs sm:text-sm text-gray-700 leading-relaxed">
+                <p>
+                  At JDS Solicitors, immigration applications are usually concluded within a <strong>14-day period</strong> from the date we receive all supporting documents and payment in full. Timescales may be longer for complex cases — clients are kept updated at every stage.
+                </p>
+                <p>
+                  We are unable to advise on how long the Home Office will take to decide a matter, as they have their own internal processes. Please check current processing times on their website:
+                </p>
                 <a
                   href="https://www.gov.uk/guidance/visa-decision-waiting-times-applications-inside-the-uk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary hover:underline break-words"
+                  className="inline-block text-primary font-medium hover:underline break-all"
                 >
-                  https://www.gov.uk/guidance/visa-decision-waiting-times-applications-inside-the-uk
+                  gov.uk — Visa Decision Waiting Times ↗
                 </a>
-              </p>
-              <p className="mt-2">
-                We may however be able to make further representations to the Home Office on your behalf challenging a delay in their decision in the event where they fail to make a decision on your case after a period of 6 months from the date you enrol your biometric (facial image and 10 fingerprints).
-              </p>
+                <p>
+                  We may be able to make further representations to the Home Office on your behalf if they fail to decide your case within 6 months of biometric enrolment.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4 className="font-bold text-secondary mb-1">UK visa fees</h4>
-              <p>
-                Information about the description, and cost of any likely disbursements and Immigration and nationality fees for all applications made from outside and within the UK can be found on the Home Office website:{' '}
+            {/* UK Visa Fees Card */}
+            <div className="mx-4 sm:mx-8 mb-6 rounded-lg border border-primary/30 bg-amber-50 overflow-hidden">
+              <div className="flex items-center gap-2 bg-primary/10 px-4 py-2 border-b border-primary/20">
+                <svg className="w-4 h-4 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <h4 className="text-xs sm:text-sm font-bold text-secondary uppercase tracking-wide">UK Visa Fees</h4>
+              </div>
+              <div className="px-4 py-3 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2">
+                <p>
+                  Information about the cost of any likely disbursements and Immigration and Nationality fees for all applications made from outside and within the UK can be found on the Home Office website:
+                </p>
                 <a
                   href="https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-6-april-2022"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary hover:underline break-words"
+                  className="inline-block text-primary font-medium hover:underline break-all"
                 >
-                  https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-6-april-2022
+                  gov.uk — Immigration &amp; Nationality Fees Table ↗
                 </a>
-              </p>
+              </div>
             </div>
           </div>
 
