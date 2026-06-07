@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FaPhoneAlt } from "react-icons/fa";
 import { useRouter, usePathname } from 'next/navigation';
 
 const Topbar = () => {
@@ -20,7 +21,6 @@ const Topbar = () => {
   useEffect((e) => {
     Activenav()
   }, [pathname])
-  console.log(pathname + "po")
   return (
     <header className="container max-w-screen-xl px-4 sm:px-6 lg:px-8 py-4 md:mb-7 md:mx-auto min-h-[80px] md:h-24 cursor-pointer bg-white flex flex-row items-center justify-between md:justify-center relative">
       <div className="md:hidden" onClick={() => { router.push('/'); Activenav() }}>
@@ -136,11 +136,20 @@ const Topbar = () => {
           </li>
         </ul>
       </nav>
-      <div
-        onClick={Handleclick}
-        className="border-2 p-2 border-gray-500 font-semibold text-2xl md:hidden flex justify-center items-center cursor-pointer hover:bg-gray-100 transition-colors z-[60] relative bg-white"
-      >
-        {!isopen ? <AiOutlineMenu /> : <AiOutlineClose />}
+      <div className="md:hidden flex items-center gap-3">
+        <a 
+          href="tel:02073666409" 
+            aria-label="Call 02073666409"
+          className="bg-primary text-secondary p-2.5 rounded-full flex items-center justify-center animate-pulse"
+        >
+          <FaPhoneAlt />
+        </a>
+        <div
+          onClick={Handleclick}
+          className="border-2 p-2 border-gray-500 font-semibold text-2xl flex justify-center items-center cursor-pointer hover:bg-gray-100 transition-colors z-[60] relative bg-white"
+        >
+          {!isopen ? <AiOutlineMenu /> : <AiOutlineClose />}
+        </div>
       </div>
     </header>
   );

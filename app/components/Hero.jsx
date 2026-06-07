@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { useRouter } from 'next/navigation';
 import { sliders } from "./Datas";
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const Hero = () => {
   const router = useRouter();
@@ -26,7 +27,7 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         loop={true}
-        className="w-full h-[280px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-screen"
+        className="w-full h-[340px] sm:h-[420px] md:h-[500px] lg:h-[600px] xl:h-screen"
       >
         {sliders.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -34,19 +35,29 @@ const Hero = () => {
               className="relative w-full h-full bg-cover bg-center flex justify-center items-center"
               style={{ backgroundImage: `url(${slide.img})` }}
             >
-              <div className="absolute inset-0 flex flex-col gap-2 sm:gap-3 justify-center items-center bg-black/25 backdrop-brightness-75 px-4">
-                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-center uppercase text-white font-semibold px-4">
+                <div className="absolute inset-0 flex flex-col gap-2 sm:gap-3 justify-center items-center bg-black/25 backdrop-brightness-75 px-4">
+                  <h1 className="text-lg sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center uppercase text-white font-black px-4 leading-tight">
                   {slide.title}
                 </h1>
-                <p className="text-base sm:text-xl md:text-2xl lg:text-3xl my-1 sm:my-3 text-primary uppercase">
+                  <p className="text-sm sm:text-xl md:text-2xl lg:text-3xl my-2 sm:my-4 text-primary font-bold uppercase tracking-widest backdrop-blur-sm bg-black/20 px-3 py-1 rounded text-center">
                   {slide.text}
                 </p>
-                <button
-                  onClick={() => router.push('/contact')}
-                  className="px-6 sm:px-8 py-2 sm:py-3 bg-yellow-600 rounded-se text-white text-sm sm:text-base hover:bg-yellow-700 transition-colors"
-                >
-                  contact us
-                </button>
+                  <div className="flex flex-col sm:flex-row gap-3 mt-3 sm:mt-4 w-full max-w-md">
+                    <a
+                      href="tel:02073666409"
+                      aria-label="Call 02073666409"
+                      className="group px-6 sm:px-8 py-3 sm:py-4 bg-primary rounded-lg text-secondary font-black text-sm sm:text-lg flex items-center justify-center gap-2 sm:gap-3 hover:bg-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(216,164,46,0.5)]"
+                    >
+                    <FaPhoneAlt className="group-hover:animate-bounce" />
+                    CALL 02073666409
+                    </a>
+                  <button
+                    onClick={() => router.push('/contact')}
+                      className="px-6 sm:px-8 py-3 sm:py-4 bg-white/20 backdrop-blur-md border-2 border-white text-white rounded-lg font-bold text-sm sm:text-lg hover:bg-white hover:text-secondary transition-all"
+                  >
+                    BOOK A CONSULTATION
+                  </button>
+                </div>
               </div>
             </div>
           </SwiperSlide>
