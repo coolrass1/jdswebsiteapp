@@ -646,6 +646,80 @@ const Feeuptodate = () => {
             </table>
           </div>
 
+          {/* Employment Overview */}
+          <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-200">
+            {/* Header */}
+            <div className="bg-secondary px-5 sm:px-8 py-4 sm:py-5">
+              <h3 className="text-white text-lg sm:text-2xl font-bold leading-snug">Our Expertise</h3>
+            </div>
+
+            {/* Intro */}
+            <div className="bg-amber-50 border-b border-amber-100 px-5 sm:px-8 py-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
+              <p>
+                JDS Solicitors has an experienced team of lawyers in delivering high-quality legal services in matters relating to employment.
+              </p>
+            </div>
+
+            {/* Legal Fees */}
+            <div className="bg-white px-5 sm:px-8 py-5 border-b border-gray-100">
+              <p className="text-xs sm:text-sm font-semibold text-secondary mb-3 uppercase tracking-wide">Legal Fees for Defending Claims for Unfair or Wrongful Dismissal</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+                {[
+                  { label: "Simple Case", fee: "£800 – £3,500", vat: "+VAT £160 – £700" },
+                  { label: "Medium Complexity", fee: "£2,500 – £10,000", vat: "+VAT £500 – £2,000" },
+                  { label: "High Complexity", fee: "£10,000 – £25,000", vat: "+VAT £2,000 – £5,000" },
+                ].map((item, i) => (
+                  <div key={i} className="rounded-lg border border-secondary/20 bg-secondary/5 p-4 text-center">
+                    <p className="text-xs font-semibold text-secondary uppercase tracking-wide mb-2">{item.label}</p>
+                    <p className="text-base sm:text-lg font-bold text-primary">{item.fee}</p>
+                    <p className="text-xs text-gray-500 mt-1">{item.vat}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-amber-50 border border-amber-200 rounded-lg px-4 py-2.5 text-xs sm:text-sm text-gray-700">
+                <span className="font-semibold">Tribunal Hearing attendance:</span> £1,000 per day (+VAT £200). Typically 0–3 days depending on complexity.
+              </div>
+            </div>
+
+            {/* Complexity Factors */}
+            <div className="bg-white px-5 sm:px-8 py-5 border-b border-gray-100">
+              <p className="text-xs sm:text-sm font-semibold text-secondary mb-3 uppercase tracking-wide">Issues That Could Increase Complexity</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5">
+                {[
+                  "Making or defending applications to amend claims or provide further information",
+                  "Defending claims brought by litigants in person",
+                  "Making or defending a costs application",
+                  "Complex preliminary issues such as whether the claimant is disabled",
+                  "The number of witnesses and documents",
+                  "Automatic unfair dismissal claims (e.g. whistleblowing dismissals)",
+                  "Allegations of discrimination linked to the dismissal",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2 text-xs sm:text-sm text-gray-700 py-1 border-b border-gray-100 last:border-0">
+                    <span className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                      <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1"/>
+                      </svg>
+                    </span>
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Notes */}
+            <div className="bg-gray-50 border-t border-gray-200 px-5 sm:px-8 py-5 space-y-3 text-xs sm:text-sm text-gray-700 leading-relaxed">
+              <p>
+                These fees are estimates based on anticipated time spent by appropriately legally qualified or non-qualified staff. We usually charge on a time basis and details of how we would charge in any particular case would be set out in our client care letter, as would details of the seniority and qualifications of persons carrying out the work.
+              </p>
+              <p>
+                In some very limited instances, we may offer to carry out work on a <strong>Damages Based Agreement (no win, no fee arrangement)</strong>. In those cases, clients might be expected to pay disbursements liable to VAT including expert&apos;s fees, Counsel&apos;s fees, accommodation fees, and some photocopying charges; and disbursements not liable to VAT including travel costs and some photocopying charges.
+              </p>
+              <p className="text-xs text-gray-500 italic">
+                Please note that VAT is a government tax that we are required to charge, and will usually be added at 20% to our fees and disbursements, except where we indicate the disbursements are outside the scope of VAT.
+              </p>
+            </div>
+          </div>
+
           {/* Employment Disbursements */}
           <div className="mt-4 sm:mt-6 bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-300">
             <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-secondary">Likely Disbursements — Employment:</h3>
@@ -849,11 +923,11 @@ const Feeuptodate = () => {
 
         {/* Criminal Law Section */}
         <section className="mb-8 sm:mb-12">
-          <div className="bg-secondary text-white px-3 sm:px-6 py-3 sm:py-4 rounded-t-lg">
+          <div className="bg-primary text-white px-3 sm:px-6 py-3 sm:py-4 rounded-t-lg">
             <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">5. Criminal Law</h2>
           </div>
 
-          <div className="rounded-b-xl overflow-hidden border-2 border-secondary/20 shadow-sm">
+          <div className="rounded-b-xl overflow-hidden border-2 border-primary/20 shadow-sm">
 
             {/* Funding intro */}
             <div className="bg-amber-50 border-b border-amber-100 px-5 sm:px-8 py-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
