@@ -42,10 +42,10 @@ export const Uppertop = () => {
 
                 </div>
                 <article className='flex justify-center items-start flex-shrink-0'>
-                        <button onClick={e => window.location.href = 'tel:02073666409'} className="group uppercase w-full sm:w-auto text-xs lg:text-sm xl:text-base px-6 lg:px-12 xl:px-16 py-2 lg:py-3 xl:py-4 shadow-[0_10px_30px_rgba(216,164,46,0.3)] bg-primary rounded-lg text-secondary font-black hover:bg-secondary hover:text-primary transition-all duration-300 flex items-center gap-2">
-                            <FaPhoneAlt className="animate-pulse" />
-                            CALL OUR EXPERTS
-                        </button>
+                                <button onClick={e => window.location.href = 'tel:02073666409'} className="group uppercase w-full sm:w-auto text-xs lg:text-sm xl:text-base px-6 lg:px-12 xl:px-16 py-2 lg:py-3 xl:py-4 shadow-[0_10px_30px_rgba(216,164,46,0.3)] bg-primary rounded-lg text-secondary font-black hover:bg-secondary hover:text-primary transition-all duration-300 flex items-center gap-3">
+                                    <FaPhoneAlt className="animate-pulse" />
+                                    <span className="leading-none">02073666409</span>
+                                </button>
 
                     </article>
             </main>
