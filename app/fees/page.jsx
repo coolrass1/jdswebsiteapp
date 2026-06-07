@@ -651,6 +651,95 @@ const Feeuptodate = () => {
           </div>
         </section>
 
+        {/* Criminal Law Section */}
+        <section className="mb-8 sm:mb-12">
+          <div className="bg-secondary text-white px-3 sm:px-6 py-3 sm:py-4 rounded-t-lg">
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">5. Criminal Law</h2>
+          </div>
+
+          <div className="rounded-b-xl overflow-hidden border-2 border-secondary/20 shadow-sm">
+
+            {/* Funding intro */}
+            <div className="bg-amber-50 border-b border-amber-100 px-5 sm:px-8 py-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
+              <p>
+                Funding for criminal matters is either <strong>private</strong> or <strong>legally aided</strong>, depending on individual circumstances. Where privately funded, our general fees apply. Where legally aided, the rules of legal aid will apply.
+              </p>
+            </div>
+
+            {/* Legal Aid Card */}
+            <div className="bg-white px-5 sm:px-8 py-6 space-y-5">
+              <div className="rounded-xl overflow-hidden border border-secondary/20 shadow-sm">
+                {/* Card Header */}
+                <div className="flex items-center gap-3 bg-secondary px-5 py-3">
+                  <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+                  </svg>
+                  <h3 className="text-white text-sm sm:text-base font-bold uppercase tracking-wide">Legal Aid</h3>
+                </div>
+
+                {/* Card Body */}
+                <div className="px-5 py-4 space-y-3 text-xs sm:text-sm text-gray-700 leading-relaxed bg-white">
+                  <p>
+                    Where you are on a very low income, legal aid may be available for your case. This means you do not have to pay for your legal costs — <strong>the government pays</strong>. JDS Solicitors holds a contract awarded by the government to provide legal aid in criminal law.
+                  </p>
+                  <p>
+                    While legal aid is available, it is subject to both a <strong>merits test</strong> and a <strong>means test</strong> before you qualify.
+                  </p>
+
+                  {/* Two-column test cards */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+                    <div className="rounded-lg border border-secondary/20 bg-secondary/5 p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="w-5 h-5 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+                          <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2.5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1"/>
+                          </svg>
+                        </span>
+                        <h4 className="font-bold text-secondary text-xs uppercase tracking-wide">Merits Test</h4>
+                      </div>
+                      <p className="text-xs text-gray-600">
+                        We will need to know about your case and whether it has a reasonable prospect of succeeding.
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-primary/30 bg-amber-50 p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="w-5 h-5 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                          <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 10 8" stroke="currentColor" strokeWidth="2.5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M1 4l2.5 2.5L9 1"/>
+                          </svg>
+                        </span>
+                        <h4 className="font-bold text-secondary text-xs uppercase tracking-wide">Means Test</h4>
+                      </div>
+                      <p className="text-xs text-gray-600">
+                        We will need to know about your income, savings, and any other source of financial support. Evidence will be required.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* CTA */}
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 bg-blue-50 border border-blue-200 rounded-lg p-4 mt-2">
+                    <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <div className="text-xs sm:text-sm text-gray-700">
+                      <p className="font-semibold text-blue-800 mb-0.5">Check if you qualify for Legal Aid</p>
+                      <p>To find out if your matter qualifies and whether you meet the tests, visit:</p>
+                      <a
+                        href="https://www.gov.uk/check-legal-aid"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block mt-1 text-primary font-semibold hover:underline"
+                      >
+                        gov.uk — Check if you can get legal aid ↗
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="mb-8 bg-slate-50 border border-slate-200 p-4 sm:p-6 rounded-lg">
           <h3 className="text-base sm:text-lg font-bold mb-2 text-secondary">Other advertised practice areas</h3>
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
