@@ -166,8 +166,7 @@ const Feeuptodate = () => {
           <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-200">
             {/* Header */}
             <div className="bg-secondary px-5 sm:px-8 py-4 sm:py-5">
-              <p className="text-white text-xs sm:text-sm font-medium uppercase tracking-widest mb-1 opacity-70">Our Expertise</p>
-              <h3 className="text-white text-lg sm:text-2xl font-bold leading-snug">Probate, Wills &amp; Estate Administration</h3>
+              <h3 className="text-white text-lg sm:text-2xl font-bold leading-snug">Our Expertise</h3>
             </div>
 
             {/* Intro */}
